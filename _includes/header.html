@@ -14,8 +14,10 @@
       <div class="row">
         <div class="col-md-2">
           <a href="index.html">
-            <img alt="Logo" class="logo logo-light" src="{{ '/assets/img/logo_hacksb.png' }}">
-            <img alt="Logo" class="logo logo-dark" src="{{ '/assets/img/logo_hacksb-dark.png' }}">
+            <img alt="Logo" class="logo logo-light" 
+                 src="{{ '/assets/img/logo_hacksb.png' | prepend: site.baseurl }}">
+            <img alt="Logo" class="logo logo-dark" 
+                 src="{{ '/assets/img/logo_hacksb-dark.png' | prepend: site.baseurl }}">
           </a>
         </div>
     
@@ -52,7 +54,8 @@
     <div class="bottom-border"></div>
 
     <div class="sidebar-menu">
-      <img alt="Logo" class="logo" src="{{ '/assets/img/logo_hacksb.png' }}">
+      <img alt="Logo" class="logo" 
+           src="{{ '/assets/img/logo_hacksb.png' | prepend: site.baseurl }}">
       <div class="bottom-border"></div>
       <div class="sidebar-content">
     
