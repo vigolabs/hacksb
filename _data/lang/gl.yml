@@ -1,0 +1,151 @@
+---
+lang:
+  es: Castelán
+  en: Inglés
+  gl: Galego
+menu:
+  home: 'Inicio'
+  schedule: 'Horario'
+  travel: 'Viaxe'
+  location: 'Localización'
+jumbotron:
+  title: Hackathon Sanjurjo Badía <br/> tecnoloxía hardware no mar
+  event_date: '27-28 Febreiro -  Vigo, Pontevedra'
+  call_to_action: INSCRIBIRSE
+summary:
+  text1:
+    title: Internet of Things no sector marítimo e pesqueiro
+    content: Un sector cun enorme potencial que precisa dunha dixitalización. Pretendemos adaptar o hardware de electrónica de consumo para facer innovación relacionada co mar.
+  text2:
+    title: 'Aprende, compite e coñece a comunidade!'
+    content: Unha competición para construír os máis excitantes proxectos tecnolóxicos. Onde poderás aprender asistindo a workshops o demostrar as túas habilidades competindo co resto de participantes.
+presentation:
+  title: 'HackSB, unha hackathon difererente!'
+  lead: 'Unha competición dun fin de semana onde persoas de distintos perfís se reúnen en equipos para crear proxectos do IoT relacionados co mar.'
+  content1: 'Profesionais e estudantes (principalmente do mundo do desenvolvemento software e deseño industrial) se reunirán en grupos de non máis de 5 persoas. Ditos grupos, terán 36 horas para crear prototipos relacionados co sector marítimo e que terán que presentar o xurado do evento e o resto de compañeiros. Os gañadores recibirán varios tipos de premios.'
+  content2: 'Durante a competición celebráranse de forma paralela varios workshops, que empezarán dende un nivel básico e irán aumentando de nivel a medida que avance o fin de semana, o cal supón unha estupenda oportunidade para aqueles que non queiran competir pero estean interesados en ampliar os seus coñecementos.'
+  content3: 'O evento é completamente gratuíto e inclúe almorzo, comidas e ceas de ambos días para todos os participantes, ademais de fantásticos premios para os gañadores. Sen embargo o aforo está limitado a 100 persoas, polo que non esquezas inscribirte para conseguir a tua entrada.'
+description:
+  title: 'Meetup is an annual conference featuring prominent web icons'
+  content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
+hardware:
+  title: 'Por onde empezar'
+  lead: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.'
+  content: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non.'
+  call_to_action: 'Informate'
+schedule:
+  day1:
+    date: '27 Febreiro'
+    item1:
+      time: '09:00 - 09:30'
+      title: 'Benvenida e rexistro'
+      summary: 'Presenta a tu entrada e recibe a tua acreditación.'
+    item2:
+      time: '09:30 - 10:00'
+      title: 'Keynote'
+      summary: 'Os mentores do evento farán unha presentación das tecnoloxías a emplear no evento, e a orientación dos  proxectos.'
+    item3:
+      time: '11:00 - 11:30'
+      title: 'Creación dos quipos & Coffe Break'
+      summary: 'Tempo libre para facer networking e creación de grupos'
+    item4:
+      time: '11:30 - 14:00'
+      title: 'Working'
+      summary: 'Tempo de desenvolvemento en grupos'
+    item5:
+      time: '14:00 - 15:00'
+      title: 'Comida patrocinada por Marine Instruments'
+      summary: 'Apertura do catering da comida, patrocinada por Marine Instruments'
+    item6:
+      time: '15:00 - 20:30'
+      title: 'Working'
+      summary: 'Tempo de desenvolvemento en grupos'
+    item7:
+      time: '20:30 - 21:30'
+      title: 'Cea patrocinada por Softwhisper'
+      summary: 'Apertura do catering da cea, patrocinada por Softwhisper'
+  day2:
+    date: '28 Febreiro'
+    item1:
+      time: '09:00 - 10:00'
+      title: 'Mentoring'
+      summary: 'Presenta tu entrada y recibe tu acreditación.'
+    item2:
+      time: '10:00 - 11:00'
+      title: 'Working'
+      summary: 'Explicaremos como fucnionará el evento. Nuestros mentores proporcionaran una introducción a sus tecnologías para emplearlas en vuestros proyectos.'
+    item3:
+      time: '11:30 - 14:00'
+      title: 'Working'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item4:
+      time: '14:00 - 15:30'
+      title: 'Comida'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item5:
+      time: '15:30 - 18:00'
+      title: 'Working'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item6:
+      time: '18:00 - 19:00'
+      title: 'Exposiciones'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+faqs:
+  title: 'Preguntas Frecuentes'
+  faq1:
+    question: '¿Canto custa a entrada?'
+    answer: 'O evento é completamente GRATUITO, pero o aforo é limitado, polo que é necesario adquirir a tua entrada para asegurar a tua asistencia no evento.'
+  faq2:
+    question: '¿Canto dura a Hackaton?'
+    answer: 'O evento dará comezo o sábado ás 9:00 e concluirá o domingo ás 18:00.'
+  faq3:
+    question: '¿Que coñecementos preciso?'
+    answer: 'O evento contará con mentores que guiarán e axudarán ós equipos en todo o proceso, pero é recomendable nocións básicas de programación.'
+  faq4:
+    question: '¿Puedo levar o meu hardware?'
+    answer: 'O evento facilitará a cada equipo hardware para relizar os seus prototipos, sen embargo os participantes son libres de traer o seu propio hardware, se creen que seralles de utilizadade no seu proxecto.'
+travel_info:
+  title: 'Información da Viaxe'
+  location:
+    title: 'Localización do Evento'
+    content: >
+            Auditorio Palacio de Congresos Mar de Vigo<br>
+            Avenida de Beiramar, Nº 59<br>
+            36202 Vigo, Pontevedra<br><br>
+    see_map: 'Ver Mapa'
+  how_to_arrive:
+    title: 'Como chegar'
+    train: 'A estación de tren encontrase no centro da ciudade, a 30 min a pe e 10 min en coche do Palacio de Congresos.'
+    bus: 'A estación de Autobuses encontrase a 3 Km aprox do Palacio de Congresos, uns 35 min a pe e 10 min en coche.'
+    airplane: 'O aeroporto de Peinador, está 15 Km d ciudade, a uns 15 min en coche do Palacio de Congresos.'
+    blablacar: 'Vigo conta cunha elavada afluencia de viaxes en <a href="https://www.blablacar.es/">BlaBlaCar</a> tanto dentro de Galicia, coma dende as principais cidades españolas.'
+accommodation:
+  title: 'Aloxamentos cercanos'
+  see_map: 'Ver Mapa'
+  hotel1:
+    name: 'Eurostars Mar de Vigo'
+    summary: '4 Estrelas - A 100 metros (2 Noches 176€ aprox.)'
+    address: 'Avd. Beiramar Nº57-59'
+  hotel2:
+    name: 'Hotel Aguila'
+    summary: '1 Estrelas - A 1.2 km (2 Noches 60€ aprox.)'
+    address: 'Rua Victoria Nº6'
+  hotel3:
+    name: 'Hotel Nautico'
+    summary: '1 Estrelas - A 1.5 km (2 Noches 60€ aprox.)'
+    address: 'Rua de Luis Taboada, Nº 28'
+call_to_action:
+  title: '¿Que estas agardando?'
+  lead: 'No esperes mais, Faite coa tua entrada xa!'
+  btn: 'Conseguir entrada'
+  invite_friends: 'Invita os teus amigos tamén'
+organizers:
+  title: 'Organizadores'
+  organizer1:
+    name: 'Jesús Sayar'
+    job: 'Desarrollador Web'
+    bio: 'Traballa dende Vigo para a empresa madrileña The Cocktail unha das principais consultoras dixitais da capital e todo un referente do ecosistema Ruby on Rails en España'
+  organizer2:
+    name: 'Eloy Coto'
+    job: 'Desarrollador VoIP'
+    bio: 'Traballa dende Porriño para a empresa londinense Foehn. Foi un dos primeiros españois no Google Campus de Londres, representando aos gañadores do SeedRocket España- Webphone.' 

@@ -1,0 +1,88 @@
+<div class="loader">
+  <div class="strip-holder">
+    <div class="strip-1"></div>
+    <div class="strip-2"></div>
+    <div class="strip-3"></div>
+  </div>
+</div>
+  
+<a id="top"></a>
+    
+<div class="nav-container">
+  <nav class="overlay-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <a href="index.html">
+            <img alt="Logo" class="logo logo-light" src="{{ '/assets/img/logo_hacksb.png' }}">
+            <img alt="Logo" class="logo logo-dark" src="{{ '/assets/img/logo_hacksb-dark.png' }}">
+          </a>
+        </div>
+    
+        <div class="col-md-10 text-right">
+          <ul class="menu">
+            <li><a class="inner-link" href="#home" target="default">{% t 'menu.home' %}</a></li>
+            <li><a class="inner-link" href="#schedule" target="default">{% t 'menu.schedule' %}</a></li>
+            <li><a class="inner-link" href="#visitors" target="default">{% t 'menu.travel' %}</a></li>
+            <li><a class="inner-link" href="#map" target="default">{% t 'menu.location' %}</a></li>
+            <li class="has-dropdown">
+              <a class="inner-link" href="#home" target="default">{{ page.language }}</a>
+              <ul class="nav-dropdown">
+                <li>
+                  <a href="{{ site.baseurl }}/es" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/gl" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
+                </li>
+              </ul>
+            </li>
+            <li class="social-link">
+              <a href="https://twitter.com/vigolabs" target="_blank"><i class="icon social_twitter"></i></a>
+            </li>
+            <li class="social-link">
+              <a href="https://www.facebook.com/vigolabs" target="_blank"><i class="icon social_facebook"></i></a>
+            </li>
+          </ul>
+          <div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
+          <div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-border"></div>
+
+    <div class="sidebar-menu">
+      <img alt="Logo" class="logo" src="{{ '/assets/img/logo_hacksb.png' }}">
+      <div class="bottom-border"></div>
+      <div class="sidebar-content">
+    
+        <div class="widget">
+          <ul class="menu">
+            <li><a class="inner-link" href="#home" target="default">{% t 'menu.home' %}</a></li>
+            <li><a class="inner-link" href="#schedule" target="default">{% t 'menu.schedule' %}</a></li>
+            <li><a class="inner-link" href="#visitors" target="default">{% t 'menu.travel' %}</a></li>
+            <li><a class="inner-link" href="#map" target="default">{% t 'menu.location' %}</a></li>
+            <li class="social-link">
+              <a href="https://twitter.com/vigolabs" target="_blank"><i class="icon social_twitter"></i></a>
+            </li>
+            <li class="social-link">
+              <a href="https://www.facebook.com/vigolabs" target="_blank"><i class="icon social_facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="widget">
+          <ul class="social-profiles">
+            <li><a href="https://twitter.com/vigolabs" target="_blank"><i class="icon social_twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/vigolabs" target="_blank"><i class="icon social_facebook"></i></a></li>
+          </ul>
+        </div>
+    
+        <div class="copy-text">
+          <span>© Copyright 2016 VigoLabs.</span>
+        </div>
+      </div>
+    </div>
+    
+  </nav>  
+</div>

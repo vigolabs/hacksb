@@ -1,0 +1,19 @@
+# Site settings
+title: Hackathon Sanjurjo Badia
+email: http://hacksb.vigolabs.gal
+description: Una competición de un fin de semana donde personas de distintos perfiles se reúnen en equipos para crear proyectos del IoT relacionados con el mar.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hacksb.vigolabs.gal"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+languages: ['es', 'en']
+
+gems:
+  - jekyll-language-plugin
+
+language_data: data.lang.%%
+language_includes_dir: _i18n

@@ -1,0 +1,151 @@
+---
+lang:
+  es: Castellano
+  en: Ingles
+  gl: Gallego
+menu:
+  home: 'Inicio'
+  schedule: 'Horario'
+  travel: 'Viaje'
+  location: 'Localización'
+jumbotron:
+  title: Hackathon Sanjurjo Badia <br/> tecnología hardware en el mar
+  event_date: '27-28 Febrero -  Vigo, Pontevedra'
+  call_to_action: INSCRIBIRSE
+summary:
+  text1:
+    title: Internet of Things en el sector marítimo/pesquero
+    content: Un sector con enorme potencial que necesita de una digitalización. Pretendemos adaptar el hardware de electronica de consumo para hacer tecnología relacionada con el mar.
+  text2:
+    title: 'Aprende, compite y conoce la comunidad!'
+    content: Una competición para construir los más excitantes proyectos tecnológicos. Donde podrás aprender asistiendo a workshops o demostrar tus habilidades compitiendo con el resto de participantes.
+presentation:
+  title: 'HackSB, un hackathon difererente!'
+  lead: 'Una competición de un fin de semana donde personas de distintos perfiles se reúnen en equipos para crear proyectos del IoT relacionados con el mar.'
+  content1: 'Profesionales y estudiantes (principalmente del mundo del desarrollo software y diseño industrial) se reunirán en grupos de no más de 5 personas. Dichos grupos, tendrán 36 horas para crear prototipos relacionados con el sector marítimo y que tendrán que presentar al jurado del evento y al resto de compañeros. Los ganadores recibirán varios tipos de premios.'
+  content2: 'Durante la competición se celebrarán de forma pararela varios workshops, que empezarán desde un nivel básico e irán aumentando de nivel a medida que avance el fin de semana, lo cual supone una estupenda oportunidad para aquellos que no quierán competir pero estén interesados en ampliar sus conocimientos.'
+  content3: 'El evento es completamente gratuito e incluye desayunos, comidas y cenas de ambos dias para todos los participantes, además de fantasticos premios para los ganadores. Sin embargo el aforo está limitado a 100 personas, por lo que no olvides inscribirte para conseguir tu entrada.'
+description:
+  title: 'Meetup is an annual conference featuring prominent web icons'
+  content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
+hardware:
+  title: 'Por donde empezar'
+  lead: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.'
+  content: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non.'
+  call_to_action: 'Informate'
+schedule:
+  day1:
+    date: '27 Febrero'
+    item1:
+      time: '09:00 - 09:30'
+      title: 'Bienvenida y Registro'
+      summary: 'Presenta tu entrada y recibe tu acreditación.'
+    item2:
+      time: '09:30 - 10:00'
+      title: 'Keynote'
+      summary: 'Explicaremos como fucnionará el evento. Nuestros mentores proporcionaran una introducción a sus tecnologías para emplearlas en vuestros proyectos.'
+    item3:
+      time: '11:00 - 11:30'
+      title: 'Creación de quipos & Coffe Break'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item4:
+      time: '11:30 - 14:00'
+      title: 'Working'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item5:
+      time: '15:30 - 20:30'
+      title: 'Comida'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item6:
+      time: '15:30 - 20:30'
+      title: 'Working'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item7:
+      time: '20:30 - 21:30'
+      title: 'Cea patrocinada por Softwhisper'
+      summary: 'Apertura do catering da cea, patrocinada por Softwhisper'
+  day2:
+    date: '28 Febrero'
+    item1:
+      time: '09:00 - 10:00'
+      title: 'Mentoring'
+      summary: 'Presenta tu entrada y recibe tu acreditación.'
+    item2:
+      time: '10:00 - 11:00'
+      title: 'Working'
+      summary: 'Explicaremos como fucnionará el evento. Nuestros mentores proporcionaran una introducción a sus tecnologías para emplearlas en vuestros proyectos.'
+    item3:
+      time: '11:30 - 14:00'
+      title: 'Working'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item4:
+      time: '14:00 - 15:30'
+      title: 'Comida'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item5:
+      time: '15:30 - 18:00'
+      title: 'Working'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+    item6:
+      time: '18:00 - 19:00'
+      title: 'Exposiciones'
+      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+faqs:
+  title: 'Frequent questions'
+  faq1:
+    question: 'How much is the ticket?'
+    answer: 'The event is completely FREE, but seating is limited, so you must purchase your ticket to ensure your attendance at the event.'
+  faq2:
+    question: 'How long does the Hackathon?'
+    answer: 'The event will begin on Saturday at 9:00 and end on Sunday at 18:00.'
+  faq3:
+    question: 'What skills do I need?'
+    answer: 'The event will have mentors to guide and help teams throughout the process, but it is advisable basics of programming.'
+  faq4:
+    question: 'Can I use my hardware?'
+    answer: 'The event provides each team hardware to make their prototypes, however participants are free to bring their own hardware, if they think will be useful in your project.'
+travel_info:
+  title: 'Información de Viaje'
+  location:
+    title: 'Localización del Evento'
+    content: >
+            Auditorio Palacio de Congresos Mar de Vigo<br>
+            Avenida de Beiramar, Nº 59<br>
+            36202 Vigo, Pontevedra<br><br>
+    see_map: 'Ver Mapa'
+  how_to_arrive:
+    title: 'Como llegar'
+    train: 'La estación de trenes se encuentra en el centro de la ciudad, a 30 min a pie y 10 min en coche del Palacio de Congresos.'
+    bus: 'La estación de Autobuses se encuentra a 3 Km aprox del Palacio de Congresos, a unos 35 min a pie y 10 min en coche.'
+    airplane: 'El aeropuerto de Peinador, está 15 Km de la ciudad, a unos 15 min en coche del Palacio de Congresos.'
+    blablacar: 'Vigo cuenta con una elavada afluencia de viajes en <a href="https://www.blablacar.es/">BlaBlaCar</a> tanto dentro de Galicia, como desde las principales ciudades españolas.'
+accommodation:
+  title: 'Alojamientos cercanos'
+  see_map: 'Ver Mapa'
+  hotel1:
+    name: 'Eurostars Mar de Vigo'
+    summary: '4 Estrellas - A 100 metros (2 Noches 176€ aprox.)'
+    address: 'Avd. Beiramar Nº57-59'
+  hotel2:
+    name: 'Hotel Aguila'
+    summary: '1 Estrella - A 1.2 km (2 Noches 60€ aprox.)'
+    address: 'Rua Victoria Nº6'
+  hotel3:
+    name: 'Hotel Nautico'
+    summary: '1 Estrella - A 1.5 km (2 Noches 60€ aprox.)'
+    address: 'Rua de Luis Taboada, Nº 28'
+call_to_action:
+  title: '¿Que estas esperando?'
+  lead: 'No esperes más, Consigue tu entrada ya!'
+  btn: 'Conseguir entrada'
+  invite_friends: 'Invita a tus amigos también'
+organizers:
+  title: 'Organizadores'
+  organizer1:
+    name: 'Jesús Sayar'
+    job: 'Desarrollador Web'
+    bio: 'Work from Vigo to Madrid company The Cocktail a leading digital capital and consulting a reference Ruby on Rails ecosystem in Spain.'
+  organizer2:
+    name: 'Eloy Coto'
+    job: 'Desarrollador VoIP'
+    bio: 'Work from Porrino for the London company Foehn. It was one of the first Spaniards in the Google Campus in London, representing Spain- SeedRocket winners Webphone.'
