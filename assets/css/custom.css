@@ -1,0 +1,90 @@
+.golds, .silvers {
+  margin-bottom: 10px;
+}
+.sponsor {
+  height: inherit;
+  position: relative;
+  width: 100%;
+}
+
+.sponsor .logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.sponsor .logo img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.sponsor.gold{
+  height: 150px;
+}
+
+.sponsor.gold img {
+  max-height: 150px;
+  max-width: 300px;
+}
+
+.sponsor.silver img {
+  max-height: 90px;
+  max-width: 300px;
+}
+
+.sponsor.bronze img {
+}
+
+.sponsor.collaborator img {
+    max-height: 30px;
+}
+
+/* General */
+.btn {
+  background: #00aaeb;
+}
+
+.btn:hover {
+  background: #0e80ea;
+}
+
+p a, .text-link a {
+  color: #0eadea !important;
+  border-color: #0eadea;
+}
+
+.strip-1,
+.strip-2,
+.strip-3 {
+  width: 20px;
+  height: 20px;
+  background: #0072bc;
+  position: relative;
+  -webkit-animation: stripMove 2s ease infinite alternate;
+  animation: stripMove 2s ease infinite alternate;
+  -moz-animation: stripMove 2s ease infinite alternate;
+}
+.strip-2 {
+  -webkit-animation-duration: 2.1s;
+  animation-duration: 2.1s;
+  background-color: #23a8ff;
+}
+.strip-3 {
+  -webkit-animation-duration: 2.2s;
+  animation-duration: 2.2s;
+  background-color: #89d1ff;
+}
+
+/* Color Blocks */
+
+.color-blocks i {
+  color: #00aaeb;
+}
+
+.block-left, .block-right {
+  background-color: #00aaeb;
+}
