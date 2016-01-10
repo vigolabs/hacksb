@@ -1,19 +1,21 @@
-<section class="inline-video">
+<section class="inline-video" id="hardware">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1>Schedule</h1>
+        <h1>{% t 'hardware.title' %}</h1>
       </div>
     </div><!--end of row-->
   
     <div class="row">
       <div class="col-md-6">
         <p class="lead">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.
-      
+          UDOO Neo, lo mejor de los dos mundos, Raspberry Pi y Arduino
         </p>
         <p>
           Las placas UDOO son un combinado hecho a base de RaspberryPi, Arduino, Android, Sensores y Conectividad. Lista para permitir adentrarnos por la puerta grande en el mundo de Internet Of Things.
+        </p>
+        <p>
+          La simplicidad de Arduino en la gestión de sensores, junto con la flexibilidad de un micro-ordenador basado en ARM están integrados en UDOO, dándote una poderosa placa de prototipo capaz de ejecutar Linux o Android.
         </p>
         <a href="#" class="btn">Get Tickets</a>
       </div>
@@ -23,13 +25,37 @@
           <img  id="udoo_bg"
                 class="background-image" 
                 alt="UDOO Neo Board" 
-                src="{{ '/assets/img/udoo/udoo_neo.jpg' | prepend: site.baseurl }}">
-          <iframe id="udoo_video" 
-                  style="display: none;" src="https://www.youtube.com/embed/8AJGhq9kgj4?autoplay=1" 
-                  frameborder="0" 
-                  allowfullscreen></iframe>
+                src="{{ '/assets/img/udoo/udoo_neo.png' | prepend: site.baseurl }}">
+          <div id="ytplayer" style="display:none;"></div>
         </div>
       </div>
-    </div><!--end of row-->
-  </div><!--end of container-->
+    </div>
+  </div>
 </section>
+
+<script type="text/javascript">
+    var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var $player;
+  function onYouTubePlayerAPIReady() {
+    $player = new YT.Player('ytplayer', {
+      height: '300',
+      width: '555',
+      videoId: '8AJGhq9kgj4'
+    });
+
+    var $udoo_bg = $('#udoo_bg');
+    var $udoo_video = $('#ytplayer');
+
+    $udoo_bg.on('click', function(){
+      $udoo_video.css('display','block');
+      $udoo_bg.css('display','none');
+      $player.playVideo();
+    });
+  }
+</script>

@@ -88,3 +88,12 @@ p a, .text-link a {
 .block-left, .block-right {
   background-color: #00aaeb;
 }
+
+/* Hardware */
+#hardware{
+  background: #fff;
+}
+
+#udoo_bg {
+  cursor: pointer;
+}
