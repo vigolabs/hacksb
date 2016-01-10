@@ -20,18 +20,18 @@ summary:
     title: 'Aprende, compite y conoce la comunidad!'
     content: Una competición para construir los más excitantes proyectos tecnológicos. Donde podrás aprender asistiendo a workshops o demostrar tus habilidades compitiendo con el resto de participantes.
 presentation:
-  title: 'HackSB, un hackathon difererente!'
+  title: 'HackSB, no te lo puedes perder!'
   lead: 'Una competición de un fin de semana donde personas de distintos perfiles se reúnen en equipos para crear proyectos del IoT relacionados con el mar.'
-  content1: 'Profesionales y estudiantes (principalmente del mundo del desarrollo software y diseño industrial) se reunirán en grupos de no más de 5 personas. Dichos grupos, tendrán 36 horas para crear prototipos relacionados con el sector marítimo y que tendrán que presentar al jurado del evento y al resto de compañeros. Los ganadores recibirán varios tipos de premios.'
-  content2: 'Durante la competición se celebrarán de forma pararela varios workshops, que empezarán desde un nivel básico e irán aumentando de nivel a medida que avance el fin de semana, lo cual supone una estupenda oportunidad para aquellos que no quierán competir pero estén interesados en ampliar sus conocimientos.'
-  content3: 'El evento es completamente gratuito e incluye desayunos, comidas y cenas de ambos dias para todos los participantes, además de fantasticos premios para los ganadores. Sin embargo el aforo está limitado a 100 personas, por lo que no olvides inscribirte para conseguir tu entrada.'
+  content1: 'Profesionales y estudiantes (principalmente del mundo del desarrollo software y diseño industrial) se reunirán en grupos para crear prototipos relacionados con el sector marítimo. Los ganadores recibirán fantásticos premios.'
+  content2: 'Además durante la competición se celebrarán de forma pararela varios <strong>workshops</strong>, que empezarán desde un nivel básico e irán aumentando de nivel a medida que avance el fin de semana, lo cual supone una estupenda oportunidad para aquellos estén interesados en ampliar sus conocimientos.'
+  content3: 'El evento es completamente gratuito e incluye desayunos, comidas y cenas, sin embargo el aforo está limitado a 100 personas, por lo que no olvides inscribirte para conseguir tu entrada.'
 description:
   title: 'Meetup is an annual conference featuring prominent web icons'
   content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
 hardware:
   title: 'Por donde empezar'
   lead: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.'
-  content: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non.'
+  content: 'Una nueva placa de hardware libre que aparecería en los libros de recetas como un combinado hecho a base de RaspberryPi, Arduino, Android, Sensores y Conectividad. Lista para permitir adentrarnos por la puerta grande en el mundo de Internet Of Things.'
   call_to_action: 'Informate'
 schedule:
   day1:

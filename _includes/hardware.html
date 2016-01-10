@@ -2,24 +2,34 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1>{% t 'hardware.title' %}</h1>
+        <h1>Schedule</h1>
       </div>
-    </div>
+    </div><!--end of row-->
   
     <div class="row">
       <div class="col-md-6">
-        <p class="lead">{% t 'hardware.lead' %}</p>
-        <p>{% t 'hardware.content' %}</p>
-        <a href="#" class="btn">{% t 'hardware.call_to_action' %}</a>
+        <p class="lead">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.
+      
+        </p>
+        <p>
+          Las placas UDOO son un combinado hecho a base de RaspberryPi, Arduino, Android, Sensores y Conectividad. Lista para permitir adentrarnos por la puerta grande en el mundo de Internet Of Things.
+        </p>
+        <a href="#" class="btn">Get Tickets</a>
       </div>
     
       <div class="col-md-6">
         <div class="embedded-video-holder">
-          <img class="background-image" 
+          <img  id="udoo_bg"
+                class="background-image" 
                 alt="UDOO Neo Board" 
                 src="{{ '/assets/img/udoo/udoo_neo.jpg' | prepend: site.baseurl }}">
+          <iframe id="udoo_video" 
+                  style="display: none;" src="https://www.youtube.com/embed/8AJGhq9kgj4?autoplay=1" 
+                  frameborder="0" 
+                  allowfullscreen></iframe>
         </div>
       </div>
-    </div>
-  </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
 </section>
