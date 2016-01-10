@@ -21,12 +21,12 @@ summary:
     content: Unha competición para construír os máis excitantes proxectos tecnolóxicos. Onde poderás aprender asistindo a workshops o demostrar as túas habilidades competindo co resto de participantes.
 presentation:
   title: 'HackSB, unha hackathon difererente!'
-  lead: 'Unha competición dun fin de semana onde persoas de distintos perfís se reúnen en equipos para crear proxectos do IoT relacionados co mar.'
-  content1: 'Profesionais e estudantes (principalmente do mundo do desenvolvemento software e deseño industrial) se reunirán en grupos de non máis de 5 persoas. Ditos grupos, terán 36 horas para crear prototipos relacionados co sector marítimo e que terán que presentar o xurado do evento e o resto de compañeiros. Os gañadores recibirán varios tipos de premios.'
-  content2: 'Durante a competición celebráranse de forma paralela varios workshops, que empezarán dende un nivel básico e irán aumentando de nivel a medida que avance o fin de semana, o cal supón unha estupenda oportunidade para aqueles que non queiran competir pero estean interesados en ampliar os seus coñecementos.'
-  content3: 'O evento é completamente gratuíto e inclúe almorzo, comidas e ceas de ambos días para todos os participantes, ademais de fantásticos premios para os gañadores. Sen embargo o aforo está limitado a 100 persoas, polo que non esquezas inscribirte para conseguir a tua entrada.'
+  lead: 'Galicia, esa bonita comunidade autónoma que leva séculos vivindo do mar. Levamos anos pensando nun futuro tecnolóxico, pero nunca voltamos a facer tecnoloxía para o mar.'
+  content1: 'Esta hackathon nace como un intento de revolucionar aos nosos deenvolvedores pra movelos a facer instrumentos para os barcos que en Galicia se constrúen, pra innovar como se pesca, ou para soster os nosos bancos de peixes.  Son moitas as innovacións que leva un barco, son moitas as oportunidades de que Galicia volva a ser un referente.'
+  content2: 'Invocamos a Sanjurjo Badía, un inventor Galego que fomentou a innovación dos barcos galegos, con motores de vapor que podían pescar en calquera punto, cunhas máquinas innovadoras que fixo que a pesca galega seguira sendo referente a nivel mundial.'
+  content3: 'Nesta hackathon pode asistir calquera persoa, da igual os coñecementos, tratase de que todo o mundo poda aprender dun compañeiro e facer algo innovador nun fin de semana.'
 description:
-  title: 'Meetup is an annual conference featuring prominent web icons'
+  title: 'Por qué vir?'
   content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
 hardware:
   title: 'Por onde empezar'
@@ -148,4 +148,4 @@ organizers:
   organizer2:
     name: 'Eloy Coto'
     job: 'Desarrollador VoIP'
-    bio: 'Traballa dende Porriño para a empresa londinense Foehn. Foi un dos primeiros españois no Google Campus de Londres, representando aos gañadores do SeedRocket España- Webphone.' 
+    bio: 'Traballa dende Porriño para a empresa londinense Foehn. Foi un dos primeiros españois no Google Campus de Londres, representando aos gañadores do SeedRocket España- Webphone.'
