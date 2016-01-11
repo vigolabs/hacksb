@@ -57,6 +57,15 @@ p a, .text-link a {
   border-color: #0eadea;
 }
 
+.container h1.big {
+  font-size: 40px;
+}
+
+.container h1.centered {
+  text-align: center;
+}
+
+
 .strip-1,
 .strip-2,
 .strip-3 {
