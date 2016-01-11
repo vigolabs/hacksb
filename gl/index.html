@@ -158,7 +158,7 @@
       
       <a href="#speakers" class="block-content">
         <div class="col-md-2 col-sm-4 text-center">
-          <i class="icon pe-7s-cup"></i>
+          <i class="icon pe-7s-light"></i>
         </div>
       
         <div class="col-md-4 col-sm-8">
@@ -173,11 +173,11 @@
   <div class="container">
     <div class="row">      
       <div class="col-md-12 col-sm-12">
-        <h1>HackSB, unha hackathon difererente!</h1>              
+        <h1>HackSB, non o podes perder!</h1>              
         <p class="lead">Unha competición dun fin de semana onde persoas de distintos perfís se reúnen en equipos para crear proxectos do IoT relacionados co mar.</p>
-        <p>Profesionais e estudantes (principalmente do mundo do desenvolvemento software e deseño industrial) se reunirán en grupos de non máis de 5 persoas. Ditos grupos, terán 36 horas para crear prototipos relacionados co sector marítimo e que terán que presentar o xurado do evento e o resto de compañeiros. Os gañadores recibirán varios tipos de premios.</p>
-        <p>Durante a competición celebráranse de forma paralela varios workshops, que empezarán dende un nivel básico e irán aumentando de nivel a medida que avance o fin de semana, o cal supón unha estupenda oportunidade para aqueles que non queiran competir pero estean interesados en ampliar os seus coñecementos.</p>
-        <p>O evento é completamente gratuíto e inclúe almorzo, comidas e ceas de ambos días para todos os participantes, ademais de fantásticos premios para os gañadores. Sen embargo o aforo está limitado a 100 persoas, polo que non esquezas inscribirte para conseguir a tua entrada.</p>                            
+        <p>Profesionais e estudantes (principalmente do mundo do desenvolvemento software e deseño industrial) se reunirán en grupos para crear prototipos relacionados co sector marítimo. Os gañadores recibirán fantásticos premios.</p>
+        <p>Ademáis durante a competición celebráranse de forma paralela varios <strong>workshops</strong>, que empezarán dende un nivel básico e irán aumentando de nivel a medida que avance o fin de semana, o cal supón unha estupenda oportunidade para aqueles que estén interesados en ampliar os seus coñecementos.</p>
+        <p>O evento é completamente gratuíto e inclúe almorzo, comidas e ceas, sen embargo o aforo está limitado a 100 persoas, polo que non esquezas inscribirte para conseguir a tua entrada.</p>                            
       </div>            
     </div>
   </div>
@@ -195,36 +195,72 @@
   
   <div class="go-right side-image col-sm-4 col-md-6">
     <div class="background-image-holder">
-      <img class="background-image" alt="About Image" src="/hacksb/assets/img/side1.jpg">
+      <img class="background-image" alt="About Image" src="/hacksb/assets/img/sea.jpg">
     </div>
   </div>
   
 </section>
-    <section class="inline-video">
+    <section class="inline-video" id="hardware">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1>Por onde empezar</h1>
+        <h1>UDOO, nuestro hardware</h1>
       </div>
-    </div>
+    </div><!--end of row-->
   
     <div class="row">
       <div class="col-md-6">
-        <p class="lead">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>
-        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non.</p>
-        <a href="#" class="btn">Informate</a>
+        <p class="lead">
+          UDOO Neo, lo mejor de los dos mundos, Raspberry Pi y Arduino. Cada equipo recibirá un Kit que incluirá una UDOO NEO Extended, junto a todo el materíal de electronica necesario para su proyecto.
+        </p>
+        <p>
+          Las placas UDOO son un combinado hecho a base de RaspberryPi, Arduino, Android, Sensores y Conectividad. Lista para permitir adentrarnos por la puerta grande en el mundo de Internet Of Things.
+        </p>
+        <p>
+          La simplicidad de Arduino en la gestión de sensores, junto con la flexibilidad de un micro-ordenador basado en ARM están integrados en UDOO, dándote una poderosa placa de prototipo capaz de ejecutar Linux o Android.
+        </p>
+        <a href="#" class="btn">HOJA DE RUTA</a>
       </div>
     
       <div class="col-md-6">
         <div class="embedded-video-holder">
-          <img class="background-image" 
+          <img  id="udoo_bg"
+                class="background-image" 
                 alt="UDOO Neo Board" 
-                src="/hacksb/assets/img/udoo/udoo_neo.jpg">
+                src="/hacksb/assets/img/udoo/udoo_neo.png">
+          <div id="ytplayer" style="display:none;"></div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<script type="text/javascript">
+    var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var $player;
+  function onYouTubePlayerAPIReady() {
+    $player = new YT.Player('ytplayer', {
+      height: '300',
+      width: '555',
+      videoId: '8AJGhq9kgj4'
+    });
+
+    var $udoo_bg = $('#udoo_bg');
+    var $udoo_video = $('#ytplayer');
+
+    $udoo_bg.on('click', function(){
+      $udoo_video.css('display','block');
+      $udoo_bg.css('display','none');
+      $player.playVideo();
+    });
+  }
+</script>
     <section class="sponsors">
   <div class="container">
     <div class="row">
@@ -232,11 +268,11 @@
         <h1>Patrocinadores</h1>
       </div>
     </div><!--end of row-->
-  
+
     <!-- ORO -->
     <div class="row golds">
       <div class="col-sm-10 col-sm-offset-2">
-        <div class="col-md-4 col-sm-4 sponsor-column">
+        <div class="col-md-4 col-sm-12 sponsor-column">
           <div class="sponsor gold text-center">
             <div class="logo">
               <a href="http://www.marineinstruments.es/" target="_blank">
@@ -245,7 +281,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-4 sponsor-column">
+        <div class="col-md-4 col-sm-12 sponsor-column">
           <div class="sponsor gold text-center">
             <div class="logo">
               <a href="https://www.abanca.com/gl/" target="_blank">
@@ -287,7 +323,7 @@
             </a>
           </div>
         </div>
-    
+
         <div class="col-md-3 col-sm-6 sponsor-column">
           <div class="sponsor bronze text-center">
             <a href="http://www.iqube.es" target="_blank">
@@ -295,7 +331,7 @@
             </a>
           </div>
         </div>
-    
+
         <div class="col-md-3 col-sm-6 sponsor-column">
           <div class="sponsor bronze text-center">
             <a href="http://www.ipglobal.es/" target="_blank">
@@ -303,7 +339,7 @@
             </a>
           </div>
         </div>
-      
+
         <div class="col-md-3 col-sm-6 sponsor-column">
           <div class="sponsor bronze text-center">
             <a href="http://bricogeek.com" target="_blank">
@@ -324,7 +360,7 @@
             </a>
           </div>
         </div>
-    
+
         <div class="col-md-2 col-sm-6 sponsor-column">
           <div class="sponsor collaborator text-center">
             <a href="http://dominio.gal" target="_blank">
@@ -332,7 +368,7 @@
             </a>
           </div>
         </div>
-    
+
         <div class="col-md-2 col-sm-6 sponsor-column">
           <div class="sponsor collaborator text-center">
             <a href="http://ajevigo.es" target="_blank">
@@ -340,7 +376,7 @@
             </a>
           </div>
         </div>
-      
+
         <div class="col-md-2 col-sm-6 sponsor-column">
           <div class="sponsor collaborator text-center">
             <a href="http://hoxe.vigo.org" target="_blank">
@@ -368,6 +404,7 @@
     </div>
   </div>
 </section>
+
     <a id="speakers" class="in-page-link"></a>
 
 <section class="speakers duplicatable-content">
@@ -882,5 +919,6 @@
 <script src="/hacksb/assets/js/twitterfetcher.min.js"></script>
 <script src="/hacksb/assets/js/placeholders.min.js"></script>
 <script src="/hacksb/assets/js/scripts.js"></script>
+<script src="/hacksb/assets/js/custom.js"></script>
 </body>
 </html>
