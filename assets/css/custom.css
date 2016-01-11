@@ -89,11 +89,16 @@ p a, .text-link a {
   background-color: #00aaeb;
 }
 
-/* Hardware */
-#hardware{
-  background: #fff;
+/* Features */
+.feature {
+  text-align: center;
 }
 
-#udoo_bg {
-  cursor: pointer;
+.feature .title {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.feature .summary {
+  font-size: 14px;
 }

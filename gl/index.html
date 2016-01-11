@@ -7,7 +7,7 @@
     <link href="/hacksb/assets/css/bootstrap.min.css" rel="stylesheet" media="all">
     <link href="/hacksb/assets/css/flexslider.min.css" rel="stylesheet" media="all">
     <link href="/hacksb/assets/css/elegant-icons.min.css" rel="stylesheet" media="all">
-    <link href="/hacksb/assets/css/pe-icon-7-stroke.min.css" rel="stylesheet" media="all">
+    <link href="/hacksb/assets/css/pe-icon-7-stroke.css" rel="stylesheet" media="all">
     <link href="/hacksb/assets/css/lightbox.min.css" rel="stylesheet" media="all">
     <link href="/hacksb/assets/css/theme-hot.css" rel="stylesheet" media="all">
     <link href="/hacksb/assets/css/custom.css" rel="stylesheet" media="all">
@@ -182,85 +182,37 @@
     </div>
   </div>
 </section>
-    <section class="image-with-text background-dark preserve-3d">
-  
-  <div class="container vertical-align">
-    <div class="row">
-      <div class="col-md-5 col-sm-7">
-        <h1 class="text-white">Meetup is an annual conference featuring prominent web icons</h1>
-        <p class="lead text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="go-right side-image col-sm-4 col-md-6">
-    <div class="background-image-holder">
-      <img class="background-image" alt="About Image" src="/hacksb/assets/img/sea.jpg">
-    </div>
-  </div>
-  
-</section>
-    <section class="inline-video" id="hardware">
+    <section class="color-blocks" id="features">
+  <div class="color-block block-left col-md-6 col-sm-12"></div>
+  <div class="color-block block-right col-md-6 col-sm-12"></div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-12">
-        <h1>UDOO, nuestro hardware</h1>
-      </div>
-    </div><!--end of row-->
-  
-    <div class="row">
-      <div class="col-md-6">
-        <p class="lead">
-          UDOO Neo, lo mejor de los dos mundos, Raspberry Pi y Arduino. Cada equipo recibirá un Kit que incluirá una UDOO NEO Extended, junto a todo el materíal de electronica necesario para su proyecto.
-        </p>
-        <p>
-          Las placas UDOO son un combinado hecho a base de RaspberryPi, Arduino, Android, Sensores y Conectividad. Lista para permitir adentrarnos por la puerta grande en el mundo de Internet Of Things.
-        </p>
-        <p>
-          La simplicidad de Arduino en la gestión de sensores, junto con la flexibilidad de un micro-ordenador basado en ARM están integrados en UDOO, dándote una poderosa placa de prototipo capaz de ejecutar Linux o Android.
-        </p>
-        <a href="#" class="btn">HOJA DE RUTA</a>
-      </div>
-    
-      <div class="col-md-6">
-        <div class="embedded-video-holder">
-          <img  id="udoo_bg"
-                class="background-image" 
-                alt="UDOO Neo Board" 
-                src="/hacksb/assets/img/udoo/udoo_neo.png">
-          <div id="ytplayer" style="display:none;"></div>
-        </div>
-      </div>
+      <div class="col-md-3 col-sm-4 feature">
+        <i class="icon pe-7s-coffee"></i>
+        <p class="title">Comida Gratis</p>
+        <p class="summary">Un completo fin de semana, con almorzo, xantar e cea incluidos.</p>
+      </div> 
+
+      <div class="col-md-3 col-sm-4 feature">
+        <i class="icon pe-7s-piggy"></i>
+          <p class="title">Gasta 0 €</p>
+          <p class="summary">Completamente gratis, rexistrate xa e consegue a tua plaza.</p>
+      </div> 
+
+      <div class="col-md-3 col-sm-4 feature">
+        <i class="icon pe-7s-culture"></i>
+          <p class="title">Aprende</p>
+          <p class="summary">Asiste os nosos workshops, impartidos por profesionais do sector.</p>
+      </div> 
+
+      <div class="col-md-3 col-sm-4 feature">
+        <i class="icon pe-7s-cup"></i>
+          <p class="title">Gana Premios</p>
+          <p class="summary">Placas UDOO e outros fantasticos premios estan agardando por ti.</p>
+      </div> 
     </div>
   </div>
 </section>
-
-<script type="text/javascript">
-    var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/player_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-  // Replace the 'ytplayer' element with an <iframe> and
-  // YouTube player after the API code downloads.
-  var $player;
-  function onYouTubePlayerAPIReady() {
-    $player = new YT.Player('ytplayer', {
-      height: '300',
-      width: '555',
-      videoId: '8AJGhq9kgj4'
-    });
-
-    var $udoo_bg = $('#udoo_bg');
-    var $udoo_video = $('#ytplayer');
-
-    $udoo_bg.on('click', function(){
-      $udoo_video.css('display','block');
-      $udoo_bg.css('display','none');
-      $player.playVideo();
-    });
-  }
-</script>
     <section class="sponsors">
   <div class="container">
     <div class="row">
@@ -405,6 +357,85 @@
   </div>
 </section>
 
+    <section class="image-with-text background-dark preserve-3d">
+  
+  <div class="container vertical-align">
+    <div class="row">
+      <div class="col-md-5 col-sm-7">
+        <h1 class="text-white">Meetup is an annual conference featuring prominent web icons</h1>
+        <p class="lead text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="go-right side-image col-sm-4 col-md-6">
+    <div class="background-image-holder">
+      <img class="background-image" alt="About Image" src="/hacksb/assets/img/sea.jpg">
+    </div>
+  </div>
+  
+</section>
+    <section class="inline-video" id="hardware">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>UDOO, nuestro hardware</h1>
+      </div>
+    </div><!--end of row-->
+  
+    <div class="row">
+      <div class="col-md-6">
+        <p class="lead">
+          UDOO Neo, lo mejor de los dos mundos, Raspberry Pi y Arduino. Cada equipo recibirá un Kit que incluirá una UDOO NEO Extended, junto a todo el materíal de electronica necesario para su proyecto.
+        </p>
+        <p>
+          Las placas UDOO son un combinado hecho a base de RaspberryPi, Arduino, Android, Sensores y Conectividad. Lista para permitir adentrarnos por la puerta grande en el mundo de Internet Of Things.
+        </p>
+        <p>
+          La simplicidad de Arduino en la gestión de sensores, junto con la flexibilidad de un micro-ordenador basado en ARM están integrados en UDOO, dándote una poderosa placa de prototipo capaz de ejecutar Linux o Android.
+        </p>
+        <a href="#" class="btn">HOJA DE RUTA</a>
+      </div>
+    
+      <div class="col-md-6">
+        <div class="embedded-video-holder">
+          <img  id="udoo_bg"
+                class="background-image" 
+                alt="UDOO Neo Board" 
+                src="/hacksb/assets/img/udoo/udoo_neo.png">
+          <div id="ytplayer" style="display:none;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript">
+    var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var $player;
+  function onYouTubePlayerAPIReady() {
+    $player = new YT.Player('ytplayer', {
+      height: '300',
+      width: '555',
+      videoId: '8AJGhq9kgj4'
+    });
+
+    var $udoo_bg = $('#udoo_bg');
+    var $udoo_video = $('#ytplayer');
+
+    $udoo_bg.on('click', function(){
+      $udoo_video.css('display','block');
+      $udoo_bg.css('display','none');
+      $player.playVideo();
+    });
+  }
+</script>
     <a id="speakers" class="in-page-link"></a>
 
 <section class="speakers duplicatable-content">
