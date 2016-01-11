@@ -89,6 +89,11 @@ p a, .text-link a {
   background-color: #00aaeb;
 }
 
+/* hardware */
+#hardware {
+  background: #fff;
+}
+
 /* Features */
 .feature {
   text-align: center;
