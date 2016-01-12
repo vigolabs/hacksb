@@ -26,12 +26,13 @@ presentation:
   content2: 'Ademáis durante a competición celebráranse de forma paralela varios <strong>workshops</strong>, que empezarán dende un nivel básico e irán aumentando de nivel a medida que avance o fin de semana, o cal supón unha estupenda oportunidade para aqueles que estén interesados en ampliar os seus coñecementos.'
   content3: 'O evento é completamente gratuíto e inclúe almorzo, comidas e ceas, sen embargo o aforo está limitado a 100 persoas, polo que non esquezas inscribirte para conseguir a tua entrada.'
 description:
-  title: 'Meetup is an annual conference featuring prominent web icons'
-  content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
+  title: 'Levamos séculos vivindo do mar, pero nunca tentamos facer tecnoloxía para o mar'
+  content: 'Esta hackathon nace como un intento de revolucionar aos desenvolvedores pra movelos a facer instrumentos para os barcos que en Galicia se constrúen, pra innovar como se pesca, ou para soster os nosos bancos de peixes. Son moitas as innovacións que leva un barco, son moitas as oportunidades de que Galicia volva a ser un referente.'
 hardware:
-  title: 'Por onde empezar'
-  lead: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.'
-  content: 'Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non.'
+  title: 'UDOO, o noso hardware'
+  lead: 'UDOO Neo, o mellor de dos dous mundos, Raspberry Pi e Arduino. Cada equipo recibirá un Kit que incluirá unha UDOO NEO Extended, xunto a todo o materíal de electronica necesario para o seu proxecto.'
+  content1: 'As placas UDOO son un combinado feito a base de RaspberryPi, Arduino, Sensores e Conectividade. Lista para permitir adentrarnos pola porta grande no mundo de Internet Of Things.'
+  content2: 'A simplicidade de Arduino na xestión de sensores, xunto coa flexibilidade dun micro-ordenador basado en ARM están integrados en UDOO, dándote unha poderosa placa de prototipo capaz de executar Linux o Android.'
   call_to_action: 'Informate'
 schedule:
   day1:
