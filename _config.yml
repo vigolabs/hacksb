@@ -3,7 +3,7 @@ title: Hackathon Sanjurjo Badia
 email: http://hacksb.vigolabs.gal
 description: Una competición de un fin de semana donde personas de distintos perfiles se reúnen en equipos para crear proyectos del IoT relacionados con el mar.
 baseurl: "/hacksb"
-url: "http://hacksb.vigolabs.gal"
+url: "http://vigolabs.github.io/hacksb/"
 
 twitter_username: jekyllrb
 github_username:  jekyll
