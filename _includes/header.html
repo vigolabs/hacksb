@@ -15,9 +15,9 @@
         <div class="col-md-2">
           <a href="index.html">
             <img alt="Logo" class="logo logo-light" 
-                 src="{{ '/assets/img/logo_hacksb.png' | prepend: site.baseurl }}">
+                 src="{{ '/assets/img/logo_hacksb.png' | prepend: site.url }}">
             <img alt="Logo" class="logo logo-dark" 
-                 src="{{ '/assets/img/logo_hacksb-dark.png' | prepend: site.baseurl }}">
+                 src="{{ '/assets/img/logo_hacksb-dark.png' | prepend: site.url }}">
           </a>
         </div>
     
@@ -31,10 +31,10 @@
               <a class="inner-link" href="#home" target="default">{{ page.language }}</a>
               <ul class="nav-dropdown">
                 <li>
-                  <a href="{{ site.baseurl }}/es" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
+                  <a href="http://hacksb.vigolabs.gal/es" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
                 </li>
                 <li>
-                  <a href="{{ site.baseurl }}/gl" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
+                  <a href="http://hacksb.vigolabs.gal/gl" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
                 </li>
               </ul>
             </li>
@@ -55,7 +55,7 @@
 
     <div class="sidebar-menu">
       <img alt="Logo" class="logo" 
-           src="{{ '/assets/img/logo_hacksb.png' | prepend: site.baseurl }}">
+           src="{{ '/assets/img/logo_hacksb.png' | prepend: site.url }}">
       <div class="bottom-border"></div>
       <div class="sidebar-content">
     
