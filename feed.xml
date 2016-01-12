@@ -3,10 +3,10 @@
   <channel>
     <title>Hackathon Sanjurjo Badia</title>
     <description>Una competición de un fin de semana donde personas de distintos perfiles se reúnen en equipos para crear proyectos del IoT relacionados con el mar.</description>
-    <link>http://hacksb.vigolabs.gal/hacksb/</link>
-    <atom:link href="http://hacksb.vigolabs.gal/hacksb/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Jan 2016 08:49:13 +0100</pubDate>
-    <lastBuildDate>Tue, 12 Jan 2016 08:49:13 +0100</lastBuildDate>
+    <link>http://vigolabs.github.io/hacksb//hacksb/</link>
+    <atom:link href="http://vigolabs.github.io/hacksb//hacksb/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Jan 2016 22:28:04 +0100</pubDate>
+    <lastBuildDate>Tue, 12 Jan 2016 22:28:04 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Wed, 06 Jan 2016 18:51:54 +0100</pubDate>
-        <link>http://hacksb.vigolabs.gal/hacksb/jekyll/update/2016/01/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://hacksb.vigolabs.gal/hacksb/jekyll/update/2016/01/06/welcome-to-jekyll.html</guid>
+        <link>http://vigolabs.github.io/hacksb//hacksb/jekyll/update/2016/01/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://vigolabs.github.io/hacksb//hacksb/jekyll/update/2016/01/06/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
