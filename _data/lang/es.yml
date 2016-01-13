@@ -69,30 +69,34 @@ schedule:
     date: '28 Febrero'
     item1:
       time: '09:00 - 10:00'
-      title: 'Mentoring'
-      summary: 'Presenta tu entrada y recibe tu acreditación.'
+      title: 'Café e bienvenida'
+      summary: 'Café y bienvenida al segundo día'
     item2:
-      time: '10:00 - 11:00'
+      time: '10:00 - 14:00'
       title: 'Working'
-      summary: 'Explicaremos como fucnionará el evento. Nuestros mentores proporcionaran una introducción a sus tecnologías para emplearlas en vuestros proyectos.'
+      summary: 'Tiempo de desarrollo en grupos'
     item3:
-      time: '11:30 - 14:00'
-      title: 'Working'
-      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+      time: '14:00 - 15:00'
+      title: 'Comida patrocinada por ABANCA'
+      summary: 'Comida patrocinada por ABANCA'
     item4:
-      time: '14:00 - 15:30'
-      title: 'Comida'
-      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
-    item5:
-      time: '15:30 - 18:00'
+      time: '15:00 - 18:00'
       title: 'Working'
-      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+      summary: 'Tiempo de desarrollo en grupos'
+    item5:
+      time: '17:30 - 18:00'
+      title: 'Merienda patrocinada por R'
+      summary: 'Merienda patrocinada por R'
     item6:
       time: '18:00 - 19:00'
-      title: 'Exposiciones'
-      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+      title: 'Exposición de proyectos'
+      summary: 'Exposición de proyectos ante el jurado'
+    item7:
+      time: '19:00 - 20:00'
+      title: 'Entrega de premios'
+      summary: 'Entrega de premios y cierre institucional'
 faqs:
-  title: 'Frequent questions'
+  title: 'Preguntas frecuentes'
   faq1:
     question: 'How much is the ticket?'
     answer: 'The event is completely FREE, but seating is limited, so you must purchase your ticket to ensure your attendance at the event.'

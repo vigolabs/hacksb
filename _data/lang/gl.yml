@@ -55,7 +55,7 @@ schedule:
       summary: 'Tempo de desenvolvemento en grupos'
     item5:
       time: '14:00 - 15:00'
-      title: 'Comida patrocinada por Marine Instruments'
+      title: 'Xantar patrocinada por Marine Instruments'
       summary: 'Apertura do catering da comida, patrocinada por Marine Instruments'
     item6:
       time: '15:00 - 20:30'
@@ -69,28 +69,32 @@ schedule:
     date: '28 Febreiro'
     item1:
       time: '09:00 - 10:00'
-      title: 'Mentoring'
-      summary: 'Presenta tu entrada y recibe tu acreditación.'
+      title: 'Café e benvida'
+      summary: 'Café e benvida ao segundo día'
     item2:
-      time: '10:00 - 11:00'
+      time: '10:00 - 14:00'
       title: 'Working'
-      summary: 'Explicaremos como fucnionará el evento. Nuestros mentores proporcionaran una introducción a sus tecnologías para emplearlas en vuestros proyectos.'
+      summary: 'Tempo de desenvolvemento en grupos'
     item3:
-      time: '11:30 - 14:00'
-      title: 'Working'
-      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+      time: '14:00 - 15:00'
+      title: 'Xantar patrocinado por ABANCA'
+      summary: 'Xantar patrocinado por ABANCA'
     item4:
-      time: '14:00 - 15:30'
-      title: 'Comida'
-      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
-    item5:
-      time: '15:30 - 18:00'
+      time: '15:00 - 18:00'
       title: 'Working'
-      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+      summary: 'Tempo de desenvolvemento en grupos'
+    item5:
+      time: '17:30 - 18:00'
+      title: 'Merenda patrocinada por R'
+      summary: 'Merenda patrocinada por R'
     item6:
       time: '18:00 - 19:00'
-      title: 'Exposiciones'
-      summary: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.'
+      title: 'Exposicións'
+      summary: 'Exposicións dos proxectos ante o xurado'
+    item7:
+      time: '19:00 - 20:00'
+      title: 'Entrega de premios'
+      summary: 'Entrega de premios e cerre institucional'
 faqs:
   title: 'Preguntas Frecuentes'
   faq1:
@@ -149,4 +153,4 @@ organizers:
   organizer2:
     name: 'Eloy Coto'
     job: 'Desarrollador VoIP'
-    bio: 'Traballa dende Porriño para a empresa londinense Foehn. Foi un dos primeiros españois no Google Campus de Londres, representando aos gañadores do SeedRocket España- Webphone.' 
+    bio: 'Traballa dende Porriño para a empresa londinense Foehn. Foi un dos primeiros españois no Google Campus de Londres, representando aos gañadores do SeedRocket España- Webphone.'
