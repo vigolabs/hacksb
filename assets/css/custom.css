@@ -57,19 +57,6 @@ p a, .text-link a {
   border-color: #0eadea;
 }
 
-h2{
-  margin: 20px 0;
-}
-
-h3 {
-  margin: 20px 0;
-}
-
-ul {
-  list-style-type: circle;
-  margin-left: 30px;
-}
-
 .container h1.big {
   font-size: 40px;
 }
@@ -127,4 +114,18 @@ ul {
 
 .feature .summary {
   font-size: 14px;
+}
+
+/* How to arrive */
+.page_body h2{
+  margin: 20px 0;
+}
+
+.page_body h3 {
+  margin: 20px 0;
+}
+
+.page_body ul {
+  list-style-type: circle;
+  margin-left: 30px;
 }

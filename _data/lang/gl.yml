@@ -120,7 +120,7 @@ travel_info:
     see_map: 'Ver Mapa'
   how_to_arrive:
     title: 'Como chegar'
-    content: "En avión, tren, autobús ou coche, sea cual sea a tua forma de viaxe consulta a <a href='http://hacksb.vigolabs.gal/how_to_arrive'>nosa páxina</a> con toda a información necesaria para organizar a tua viaxe."
+    content: "En avión, tren, autobús ou coche, sea cual sea a tua forma de viaxe consulta a <a href='http://hacksb.vigolabs.gal/how_to_arrive' target='_blank'>nosa páxina</a> con toda a información necesaria para organizar a tua viaxe."
 accommodation:
   title: 'Aloxamentos cercanos'
   see_map: 'Ver Mapa'
