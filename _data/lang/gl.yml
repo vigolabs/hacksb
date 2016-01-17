@@ -120,7 +120,7 @@ travel_info:
     see_map: 'Ver Mapa'
   how_to_arrive:
     title: 'Como chegar'
-    content: "Sea cual sea tu forma de viaje consulta nuestra página con toda la información necesaria para organizar tu viaje."
+    content: "En avión, tren, autobús ou coche, sea cual sea a tua forma de viaxe consulta a <a href='http://hacksb.vigolabs.gal/how_to_arrive'>nosa páxina</a> con toda a información necesaria para organizar a tua viaxe."
 accommodation:
   title: 'Aloxamentos cercanos'
   see_map: 'Ver Mapa'
@@ -151,3 +151,41 @@ organizers:
     name: 'Eloy Coto'
     job: 'Desarrollador VoIP'
     bio: 'Traballa dende Porriño para a empresa londinense Foehn. Foi un dos primeiros españois no Google Campus de Londres, representando aos gañadores do SeedRocket España- Webphone.'
+how_to_arrive:
+  title: 'Como chegar'
+  train:
+    title: 'En tren'
+    content1: 'A estación de Trenes de Vigo encuentrase ubicada na zona centro da ciudade. Para información acerca dos destinos e procedencias recomendamoslle visitar a Web de Renfe www.renfe.com.'
+    content2: 'O Auditorio Palacio de Congresos Mar de Vigo encuentrase a uns 30 minutos a pe dende a estación de trenes. O tempo aproximado de chegada en coche dende a estación de trenes é de 10 minutos.'
+  bus:
+    title: "En Bus"
+    content1: "A estación de Autobuses de Vigo encuentrase ubicada a aproximadamente 3 Km do Palacio de Congresos. Para información acerca dos destinos e procedencias dos autobuses que chegan á cidade lle recomendamos visitar a Web oficial da Estación de Autobuses de Vigo www.vigobus.com."
+    content2: "O Auditorio Palacio de Congresos Mar de Vigo encuentrase a uns 35 minutos a pe dende a estación de autobuses. A modo orientativo, o importe podría rondar os 8 € e serían necesarios uns 12 minutos aprox."
+  airplane:
+    title: "En avión"
+    content1: "Vigo conta con aeroporto propio coñecido como aeroporto de Peinador, situado a menos de 15 Km da ciudade. A suas principais conexións establecense con Madrid, Barcelona, París e Londres, o que lle permite realizar multitud de conexións nacionais e internacionais."
+    content2: "O Auditorio Palacio de Congresos Mar de Vigo encontrase a uns 15 minutos en coche dende o Aeroporto de Peinador."
+  car:
+    title: "En coche"
+    from_orense:
+      title: "Dende :  Orense/Madrid"
+      step1: 'Continuar por A-52 (aprox. 77 Km. desde Ourense) e tomar salida 307'
+      step2: 'Continuar por A-55 (aprox. 6.5 Km.) e tomar salida 662A'
+      step3: 'Continuar por AP-9 (aprox. 12 Km.) e tomar salida 151'
+      step4: 'Continuar por  A-9 e tomar a salida 4V "García Barbón, Tráfico Portuario"'
+      step5: 'Continuar por el Tunel'
+      step6: 'Na Glorieta tomar a dirección Avenida de Beiramar e continuar ata o final do Tunel'          
+    from_santiago:
+      title: 'Dende: Santiago/A Coruña'
+      step1: 'Continuar por AP-9 dirección Vigo'
+      step2: 'Continuar por  A-9 e tomar a salida 4V "García Barbón, Tráfico Portuario"'
+      step3: 'Continuar por el Tunel'
+      step4: 'Na Glorieta tomar a dirección Avenida de Beiramar e continuar ata o final do Tunel'
+    from_portugal:
+      title: 'Dende: Portugal/Oporto'
+      step1: 'Por autopista tomar dirección Valença do Minho/Espanha.'
+      step2: 'Unha vez entrado no territorio español, continuar por E-1/A-55 e tomar a salida 169B'
+      step3: 'Continuar en AP-9 (aprox. 30Km.) dirección Vigo/Pontevedra e tomar salida 151 (a Vigo)'
+      step4: 'Continuar por A-9  y tomar a salida 4V "García Barbón, Tráfico Portuario"'
+      step5: 'Continuar por el Tunel'   
+      step6: 'Na Glorieta tomar a dirección Avenida de Beiramar e continuar ata o final do Tunel'                    

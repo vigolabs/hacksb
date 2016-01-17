@@ -16,41 +16,49 @@ navigation: true
     <div class="container">
       <div class="row">      
         <div class="col-md-12 col-sm-12">
-          <h1 class="big centered">{% t 'presentation.title' %}</h1>              
-          <h2>En tren</h2>
-          <p>La estación de Trenes de Vigo se encuentra ubicada en la zona centro de la ciudad. Para información acerca de los destinos y procedencias le recomendamos visitar la Web de Renfe www.renfe.com.</p>
-          <p>El Auditorio Palacio de Congresos Mar de Vigo se encuentra a unos 30 minutos a pie desde la estación de trenes .El tiempo aproximado de llegada en coche desde la estación de trenes es de 10 minutos.</p>
-          <h2>En bus</h2>
-          <p>La estación de Autobuses de Vigo se encuentra ubicada a aproximadamente 3 Km del Palacio de Congresos. Para información acerca de los destinos y procedencias de los autobuses que llegan a la ciudad le recomendamos visitar la Web oficial de la Estación de Autobuses de Vigo www.vigobus.com.</p>
-          <p>El Auditorio Palacio de Congresos Mar de Vigo se encuentra a unos 35 minutos a pie desde la estación de autobuses.A modo orientativo, el importe podría rondar los 8 € y serían necesarios unos 12 minutos aprox.</p>
-          <h2>En avión</h2>
-          <p>Vigo cuenta con propio aeropuerto conocido como aeropuerto de Peinador, situado a menos de 15 Km de la ciudad. Sus principales conexiones se establecen con Madrid, Barcelona, París y Londres, lo que le permite realizar multitud de conexiones nacionales e internacionales.</p>
-          <p>El Auditorio Palacio de Congresos Mar de Vigo se encuentra a unos 15 minutos en coche desde el Aeropuerto de Peinador.</p>
-          <h2>En coche</h2>
-          <h3>Desde :  Orense / Madrid</h3>
+          <h1 class="big centered">{% t 'how_to_arrive.title' %}</h1>
+
+          <!-- EN TREN -->
+          <h2>{% t 'how_to_arrive.train.title' %}</h2>
+          <p>{% t 'how_to_arrive.train.content1' %}</p>
+          <p>{% t 'how_to_arrive.train.content2' %}</p>
+
+          <!-- EN BUS -->
+          <h2>{% t 'how_to_arrive.bus.title' %}</h2>
+          <p>{% t 'how_to_arrive.bus.content1' %}</p>
+          <p>{% t 'how_to_arrive.bus.content2' %}</p>
+
+          <!-- EN AVION -->
+          <h2>{% t 'how_to_arrive.airplane.title' %}</h2>
+          <p>{% t 'how_to_arrive.airplane.content1' %}</p>
+          <p>{% t 'how_to_arrive.airplane.content2' %}</p>
+
+          <!-- EN COCHE -->
+          <h2>{% t 'how_to_arrive.car.title' %}</h2>
+          <h3>{% t 'how_to_arrive.car.from_orense.title' %}</h3>
           <ul>
-            <li>Continuar por A-52 (aprox. 77 Km. desde Ourense)  y tomar salida 307</li>
-            <li>Continuar por A-55 (aprox. 6.5 Km.) y tomar salida 662A</li>
-            <li>Continuar por AP-9 (aprox. 12 Km.) y tomar salida 151</li>
-            <li>Continuar por  A-9  y tomar la salida 4V “García Barbón, Tráfico Portuario”</li>
-            <li>Continuar por el Tunel</li>
-            <li>En la Glorieta tomar la dirección Avenida de Beiramar y continuar hasta el final del Tunel</li>
+            <li>{% t 'how_to_arrive.car.from_orense.step1' %}</li>
+            <li>{% t 'how_to_arrive.car.from_orense.step2' %}</li>
+            <li>{% t 'how_to_arrive.car.from_orense.step3' %}</li>
+            <li>{% t 'how_to_arrive.car.from_orense.step4' %}</li>
+            <li>{% t 'how_to_arrive.car.from_orense.step5' %}</li>
+            <li>{% t 'how_to_arrive.car.from_orense.step6' %}</li>
           </ul>
-          <h3>Desde: Santiago / A Coruña</h3>
+          <h3>{% t 'how_to_arrive.car.from_santiago.title' %}</h3>
           <ul>
-            <li>Continuar por AP-9 dirección Vigo</li>
-            <li>Continuar por AP-9 dirección Vigo</li>
-            <li>Continuar por el Tunel</li>
-            <li>En la Glorieta tomar la dirección Avenida de Beiramar y continuar hasta el final del Tunel</li>
+            <li>{% t 'how_to_arrive.car.from_santiago.step1' %}</li>
+            <li>{% t 'how_to_arrive.car.from_santiago.step2' %}</li>
+            <li>{% t 'how_to_arrive.car.from_santiago.step3' %}</li>
+            <li>{% t 'how_to_arrive.car.from_santiago.step4' %}</li>
           </ul>
-          <h3>Desde: Portugal / Oporto</h3>
+          <h3>{% t 'how_to_arrive.car.from_portugal.title' %}</h3>
           <ul>
-            <li>Por autopista tomar dirección Valença do Minho / Espanha.</li>
-            <li>Una vez entrado en territorio español, continuar por E-1 / A-55 y tomar la salida 169B</li>
-            <li>Continuar en AP-9 (aprox. 30Km.) dirección Vigo / Pontevedra y tomar salida 151 (a Vigo)</li>
-            <li>Continuar por  A-9  y tomar la salida 4V “García Barbón, Tráfico Portuario”</li>
-            <li>Continuar por el Tunel</li>
-            <li>En la Glorieta tomar la dirección Avenida de Beiramar y continuar hasta el final del Tunel</li>
+            <li>{% t 'how_to_arrive.car.from_portugal.step1' %}</li>
+            <li>{% t 'how_to_arrive.car.from_portugal.step2' %}</li>
+            <li>{% t 'how_to_arrive.car.from_portugal.step3' %}</li>
+            <li>{% t 'how_to_arrive.car.from_portugal.step4' %}</li>
+            <li>{% t 'how_to_arrive.car.from_portugal.step5' %}</li>
+            <li>{% t 'how_to_arrive.car.from_portugal.step6' %}</li>
           </ul>   
         </div>            
       </div>
