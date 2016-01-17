@@ -120,10 +120,7 @@ travel_info:
     see_map: 'Ver Mapa'
   how_to_arrive:
     title: 'Como llegar'
-    train: 'La estación de trenes se encuentra en el centro de la ciudad, a 30 min a pie y 10 min en coche del Palacio de Congresos.'
-    bus: 'La estación de Autobuses se encuentra a 3 Km aprox del Palacio de Congresos, a unos 35 min a pie y 10 min en coche.'
-    airplane: 'El aeropuerto de Peinador, está 15 Km de la ciudad, a unos 15 min en coche del Palacio de Congresos.'
-    blablacar: 'Vigo cuenta con una elavada afluencia de viajes en <a href="https://www.blablacar.es/">BlaBlaCar</a> tanto dentro de Galicia, como desde las principales ciudades españolas.'
+    content: "Sea cual sea tu forma de viaje consulta nuestra página con toda la información necesaria para organizar tu viaje."
 accommodation:
   title: 'Alojamientos cercanos'
   see_map: 'Ver Mapa'
