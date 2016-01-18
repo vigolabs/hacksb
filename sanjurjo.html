@@ -1,0 +1,71 @@
+---
+layout: default
+languages:
+- gl
+- es
+permalink: /sanjurjo/
+subset: index
+navigation: true
+---
+
+{% include head.html %}
+<body>
+  <div class="page_header">{% include header.html %}</div>
+  <div class="main-container" "page_body">
+    <section class="contained-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1 class="big centered">{% t 'sanjurjo.title' %}</h1>
+
+            <!-- EN TREN -->
+            <h2>{% t 'how_to_arrive.train.title' %}</h2>
+            <p>{% t 'how_to_arrive.train.content1' %}</p>
+            <p>{% t 'how_to_arrive.train.content2' %}</p>
+
+            <!-- EN BUS -->
+            <h2>{% t 'how_to_arrive.bus.title' %}</h2>
+            <p>{% t 'how_to_arrive.bus.content1' %}</p>
+            <p>{% t 'how_to_arrive.bus.content2' %}</p>
+
+            <!-- EN AVION -->
+            <h2>{% t 'how_to_arrive.airplane.title' %}</h2>
+            <p>{% t 'how_to_arrive.airplane.content1' %}</p>
+            <p>{% t 'how_to_arrive.airplane.content2' %}</p>
+
+            <!-- EN COCHE -->
+            <h2>{% t 'how_to_arrive.car.title' %}</h2>
+            <h3>{% t 'how_to_arrive.car.from_orense.title' %}</h3>
+            <ul>
+              <li>{% t 'how_to_arrive.car.from_orense.step1' %}</li>
+              <li>{% t 'how_to_arrive.car.from_orense.step2' %}</li>
+              <li>{% t 'how_to_arrive.car.from_orense.step3' %}</li>
+              <li>{% t 'how_to_arrive.car.from_orense.step4' %}</li>
+              <li>{% t 'how_to_arrive.car.from_orense.step5' %}</li>
+              <li>{% t 'how_to_arrive.car.from_orense.step6' %}</li>
+            </ul>
+            <h3>{% t 'how_to_arrive.car.from_santiago.title' %}</h3>
+            <ul>
+              <li>{% t 'how_to_arrive.car.from_santiago.step1' %}</li>
+              <li>{% t 'how_to_arrive.car.from_santiago.step2' %}</li>
+              <li>{% t 'how_to_arrive.car.from_santiago.step3' %}</li>
+              <li>{% t 'how_to_arrive.car.from_santiago.step4' %}</li>
+            </ul>
+            <h3>{% t 'how_to_arrive.car.from_portugal.title' %}</h3>
+            <ul>
+              <li>{% t 'how_to_arrive.car.from_portugal.step1' %}</li>
+              <li>{% t 'how_to_arrive.car.from_portugal.step2' %}</li>
+              <li>{% t 'how_to_arrive.car.from_portugal.step3' %}</li>
+              <li>{% t 'how_to_arrive.car.from_portugal.step4' %}</li>
+              <li>{% t 'how_to_arrive.car.from_portugal.step5' %}</li>
+              <li>{% t 'how_to_arrive.car.from_portugal.step6' %}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% include call_to_action.html %}
+  </div>
+  {% include footer.html %}
+  {% include js.html %}
+</body>

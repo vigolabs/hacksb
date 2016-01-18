@@ -174,7 +174,7 @@ how_to_arrive:
       step3: 'Continuar por AP-9 (aprox. 12 Km.) y tomar salida 151'
       step4: 'Continuar por  A-9  y tomar la salida 4V "García Barbón, Tráfico Portuario"'
       step5: 'Continuar por el Tunel'
-      step6: 'En la Glorieta tomar la dirección Avenida de Beiramar y continuar hasta el final del Tunel'          
+      step6: 'En la Glorieta tomar la dirección Avenida de Beiramar y continuar hasta el final del Tunel'
     from_santiago:
       title: 'Desde: Santiago/A Coruña'
       step1: 'Continuar por AP-9 dirección Vigo'
@@ -187,5 +187,19 @@ how_to_arrive:
       step2: 'Una vez entrado en territorio español, continuar por E-1 / A-55 y tomar la salida 169B'
       step3: 'Continuar en AP-9 (aprox. 30Km.) dirección Vigo / Pontevedra y tomar salida 151 (a Vigo)'
       step4: 'Continuar por  A-9  y tomar la salida 4V "García Barbón, Tráfico Portuario"'
-      step5: 'Continuar por el Tunel'   
-      step6: 'En la Glorieta tomar la dirección Avenida de Beiramar y continuar hasta el final del Tunel'  
+      step5: 'Continuar por el Tunel'
+      step6: 'En la Glorieta tomar la dirección Avenida de Beiramar y continuar hasta el final del Tunel'
+sanjurjo:
+  title: "Sanjurjo badía"
+  text: |
+    Esta hackathon está dedicada a uno de los mejores inventores que ha tenido Vigo en su historia. Antonio Sanjurjo Badía nacido en Sada en el 1837 y conocido con su apodo heredado “el habilidades” aprendió sobre relojería y fundición en el taller de su padre. En 1854 emigró a Cuba, donde tuvo una vida próspera debido a sus conocimientos de mecánica donde montó su primer taller.
+
+    Cuando volvió a Vigo, compró una pequeño taller (Ortega y Baamonde) y lo renombro a la “La Fundidora” donde hacían calderas y máquinas de vapor. En 1980 fundó la empresa “La industriosa” y en esta empresa desarrollaba todo tipo de instrumentos para lo incipiente sistema industrial de Vigo, y en ella hacían desde presas, máquinas de vapor, ollas o estufas.
+
+    Entre sus obras, se pueden contar un sistema de comunicación en la línea de A Coruña y Santiago. Una empresa que compró y modificaba los motores de vapor por motores de bencina. Su carácter innovador también ayudó la que a partir de  1913 inició su astillero (En la actual Guixar) en el cual podían hacer barcos de hasta 80 toneladas. También y salientable que él participó activamente en la primera fábrica de papel de la comarca, en el sistema de suministro de agua en la isla de San Simón, o comprando uno de los primeros automóviles de la provincia.
+
+    La obra más reconocida de Sanjurjo, y un submarino de 11 metros de eslora en el cual trabajaba para la defensa de la la ría de Vigo debido la guerra entre EEUU y España. Este submarino se encuentra actualmente en las instalaciones del museo de Mar.
+
+    Cabe destacar el aspecto social de Sanjurjo, donde fue de los primeros empresarios españoles en dotar de una seguridad social o jubilación dentro de las empresas, siendo Sanjurjo uno de los empresarios mejor valorados de la ciudad, donde sus empleados pensaban en su patrón como un protector. Desde 1921 tiene una cuaje dedicada en Vigo, y en el año 1922 falleció.
+
+    Actualmente la industriosa, está regentada por un bisnieto, y renombrada a Funditesa Sanjurjo Badía y dedicados únicamente la elaboración de cilindros para motores de barcos.
