@@ -65,6 +65,10 @@ p a, .text-link a {
   text-align: center;
 }
 
+.embedded-video-holder {
+  cursor: pointer;
+}
+
 .strip-1,
 .strip-2,
 .strip-3 {
