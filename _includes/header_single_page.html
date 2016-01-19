@@ -20,32 +20,19 @@
                 </a>
                 <ul class="nav-dropdown">
                   <li>
-                    <a class="inner-link" href="{{ '' | prepend: site.url }}">
+                    <a class="inner-link" href="{{ '' | prepend: page.language | prepend: site.url }}">
                       {% t 'menu.home' %}
                     </a>
                   </li>
                   <li>
-                    <a class="inner-link" href="{{ 'how_to_arrive' | prepend: site.url }}">
+                    <a class="inner-link" href="{{ '/how_to_arrive'| prepend: page.language | prepend: site.url }}">
                       {% t 'menu.how_to_arrive' %}
                     </a>
                   </li>
                   <li>
-                    <a class="inner-link" href="{{ 'sanjurjo' | prepend: site.url }}">
+                    <a class="inner-link" href="{{ '/sanjurjo' | prepend: page.language | prepend: site.url }}">
                       Sanjurjo Badía
                     </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-dropdown">
-                <a class="inner-link" href="#home" target="default">{{ page.language }}</a>
-                <ul class="nav-dropdown">
-                  <li>
-                    {% capture link_es %}{{ site.baseurl }}/es{{ page.url }}{% endcapture %}
-                    <a href="{{ link_es }}" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
-                  </li>
-                  <li>
-                  {% capture link_gl %}{{ site.baseurl }}/gl{{ page.url }}{% endcapture %}
-                    <a href="{{ link_gl }}" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
                   </li>
                 </ul>
               </li>
