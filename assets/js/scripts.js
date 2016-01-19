@@ -291,51 +291,14 @@ $(window).load(function() {
         controlNav: false
     });
 
-
-    $('.instagram li a').attr('title', '');
-
-    setTimeout(function() {
-
-        $('.instagram li').each(function() {
-
-            // Append background-image <img>'s as li item CSS background for better responsive performance
-            var imgSrc = $(this).find('img').attr('src');
-            $(this).css('background', 'url("' + imgSrc + '")');
-            $(this).find('img').css('opacity', 0);
-            $(this).css('background-position', '50% 0%');
-            // Check if the slider has a color scheme attached, if so, apply it to the slider nav
-        });
-
-    }, 1000);
-
-    // Mailchimp/Campaign Monitor Mail List Form Scripts
-
-    $('form.mail-list-signup').on('submit', function() {
-
-        var iFrame = $(this).closest('section, header').find('iframe.mail-list-form'),
-
-            userEmail = $(this).find('.signup-email-field').val(),
-        userFullName = $(this).find('.signup-name-field').val(),
-        userFirstName = $(this).find('.signup-first-name-field').val(),
-        userLastName = $(this).find('.signup-last-name-field').val();
-
-        iFrame.contents().find('#mce-EMAIL, #fieldEmail').val(userEmail);
-        iFrame.contents().find('#mce-LNAME, #fieldLastName').val(userLastName);
-        iFrame.contents().find('#mce-FNAME, #fieldFirstName').val(userFirstName);
-        iFrame.contents().find('#mce-FNAME, #fieldName').val(userFullName);
-
-        iFrame.contents().find('form').attr('target', '_blank').submit();
-        return false;
-    });
-
-    setTimeout(function() {
+    /*setTimeout(function() {
         $('.loader').addClass('hide-loader');
         setTimeout(function() {
             $('.loader').remove();
             $('.main-container').addClass('show-content');
             $('nav').addClass('show-content');
         }, 500);
-    }, 10);
+    }, 10);*/
 
 
 }); 

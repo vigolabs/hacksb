@@ -65,7 +65,6 @@ p a, .text-link a {
   text-align: center;
 }
 
-
 .strip-1,
 .strip-2,
 .strip-3 {
@@ -115,4 +114,39 @@ p a, .text-link a {
 
 .feature .summary {
   font-size: 14px;
+}
+
+/* How to arrive */
+.page_body h1{
+  margin-top: 20px;
+}
+
+.page_body h2{
+  margin: 20px 0;
+}
+
+.page_body h3 {
+  margin: 20px 0;
+}
+
+.page_body ul {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+
+.page_header .overlay-nav {
+  background: #000;
+}
+
+.page_header .bottom-border {
+  bottom: 0px;
+  height: 0px;
+}
+
+.page_header .nav-dropdown {
+  background: #000;
+}
+
+.page_header .nav-dropdown a {
+  color: #fff;
 }
