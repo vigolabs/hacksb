@@ -10,6 +10,10 @@ menu:
   location: 'Localización'
   pages: 'Páginas'
   how_to_arrive: 'Como llegar'
+footer:
+  we: 'Nosotros'
+  previous_edition: 'Edición anterior'
+  return_top: 'Volver arriba'
 jumbotron:
   title: Hackathon Sanjurjo Badia <br/> tecnología hardware en el mar
   event_date: '27-28 Febrero -  Vigo, Pontevedra'
@@ -27,6 +31,7 @@ presentation:
   content1: 'Profesionales y estudiantes (principalmente del mundo del desarrollo software y diseño industrial) se reunirán en grupos para crear prototipos relacionados con el sector marítimo. Los ganadores recibirán fantásticos premios.'
   content2: 'Además durante la competición se celebrarán de forma pararela varios <strong>workshops</strong>, que empezarán desde un nivel básico e irán aumentando de nivel a medida que avance el fin de semana, lo cual supone una estupenda oportunidad para aquellos estén interesados en ampliar sus conocimientos.'
   content3: 'El evento es completamente gratuito e incluye desayunos, comidas y cenas, sin embargo el aforo está limitado a 100 personas, por lo que no olvides inscribirte para conseguir tu entrada.'
+  rules: 'LEER BASES'
 description:
   title: 'Llevamos siglos vivindo del mar, pero nunca intentamos hacer tecnología para el mar'
   content: 'Esta hackathon nace como un intento de revolucionar a los desarrolladores para incentivarlos a crear instrumentos para los barcos que en Galicia se construyen, para innovar como se pesca, o para sotener nuestros bancos de peces. Son muchas las innovacións que lleva un barco, son muchas las oportunidades de que Galicia vuelva a ser un referente.'
@@ -122,7 +127,9 @@ travel_info:
     see_map: 'Ver Mapa'
   how_to_arrive:
     title: 'Como llegar'
-    content: "En avión, tren, autobús o coche, sea cual sea tu forma de viaje consulta <a href='http://hacksb.vigolabs.gal/how_to_arrive' target='_blank'>nuestra página</a> con toda la información necesaria para organizar tu viaje."
+    content1: "En avión, tren, autobús o coche, sea cual sea tu forma de viaje consulta "
+    content2: "con toda la información necesaria para organizar tu viaje."
+    link: "nuestra página"
 accommodation:
   title: 'Alojamientos cercanos'
   see_map: 'Ver Mapa'

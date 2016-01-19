@@ -16,7 +16,7 @@
           <h3>{% t 'travel_info.location.title' %}</h3>
           <p>
             {% t 'travel_info.location.content' %}
-            <a href="">{% t 'travel_info.location.see_map' %}</a>
+            <a href="https://www.google.com/maps?ll=42.23314,-8.739117&z=15&t=m&hl=es&gl=US&mapclient=embed&cid=12064610116167520201" target="_blank">{% t 'travel_info.location.see_map' %}</a>
           </p>
 
         </div>
@@ -27,8 +27,12 @@
           <img alt="Renfe" 
                src="{{ '/assets/img/renfe.jpg' | prepend: site.url }}">
           <h3>{% t 'travel_info.how_to_arrive.title' %}</h3>
-          <!-- TREN -->
-          <p>{% t 'travel_info.how_to_arrive.content' %}</p>
+          <p>
+            {% t 'travel_info.how_to_arrive.content1' %}
+            {% capture link_es %}{{ site.baseurl }}{{ page.lang }}/how_to_arrive{% endcapture %}
+            <a href="{{ link_es }}" title="{% t 'lang.es' %}" target="_blank">{% t 'travel_info.how_to_arrive.link' %}</a>
+            {% t 'travel_info.how_to_arrive.content2' %}
+          </p>
         </div>
       </div>
   
@@ -37,9 +41,9 @@
           <img alt="Vitrasa" src="{{ '/assets/img/vitrasa.jpg' | prepend: site.url }}">
           <h3>Transporte Urbano</h3>
           <p>
-            Vigo cuenta con un servicio de transporte público conocido por el nombre de la empresa que lo gestiona Vitrasa. Puedes consultar su <a href="http://www.vitrasa.es/">web</a> o bajarte la <a href="https://play.google.com/store/apps/details?id=com.jjelosua.vigobus&hl=es">app movil</a> para informarte sobre sus lineas y horarios.
+            Vigo cuenta con un servicio de transporte público conocido por el nombre de la empresa que lo gestiona Vitrasa. Puedes consultar su <a href="http://www.vitrasa.es" target="_blank">web</a> o bajarte la <a href="https://play.google.com/store/apps/details?id=com.jjelosua.vigobus&hl=es" target="_blank">app movil</a> para informarte sobre sus lineas y horarios.
           </p>
-          <p>De lunes a sábado las lineas con paradas en el Auditorio Mar de Vigo son la <strong>L10</strong> y <strong>L15B</strong>. De lunes a domingo la linea <strong>C1</strong> tiene una parada muy próxima, mas información <a href="http://www.vitrasa.es/php/index.php?pag=secciones/seccion&seccion=14">aquí</a>.</p>
+          <p>De lunes a sábado las lineas con paradas en el Auditorio Mar de Vigo son la <strong>L10</strong> y <strong>L15B</strong>. De lunes a domingo la linea <strong>C1</strong> tiene una parada muy próxima, mas información <a href="http://www.vitrasa.es/php/index.php?pag=secciones/seccion&seccion=14" target="_blank">aquí</a>.</p>
         </div>
       </div>
     </div>
@@ -59,7 +63,7 @@
           <p>{% t 'accommodation.hotel1.summary' %}</p>
           <p>{% t 'accommodation.hotel1.address' %}</p>
           <div class="text-link">
-            <a href="#">{% t 'accommodation.see_map' %}</a>
+            <a href="https://www.google.es/maps/place/Av.+da+Beiramar,+57,+36202+Vigo,+Pontevedra/@42.23182,-8.7363986,17z/data=!3m1!4b1!4m2!3m1!1s0xd2f621120f8f6cb:0xa91d87581484a83d" target="_blank">{% t 'accommodation.see_map' %}</a>
             <a href="http://www.eurostarsmardevigo.com/" target="_blank">Web</a>
           </div>    
         </div>
@@ -73,7 +77,7 @@
           <p>{% t 'accommodation.hotel2.summary' %}</p>
           <p>{% t 'accommodation.hotel2.address' %}</p>
           <div class="text-link">
-            <a href="#">{% t 'accommodation.see_map' %}</a>
+            <a href="https://www.google.es/maps/place/R%C3%BAa+Victoria,+6,+36201+Vigo,+Pontevedra/@42.2388196,-8.726458,17z/data=!3m1!4b1!4m2!3m1!1s0xd2f624026a5e5b5:0x717e0ad21d370a3f" target="_blank">{% t 'accommodation.see_map' %}</a>
             <a href="http://www.hotelaguila.com/es" target="_blank">Web</a>
           </div>      
         </div>
@@ -87,7 +91,7 @@
           <p>{% t 'accommodation.hotel3.summary' %}</p>
           <p>{% t 'accommodation.hotel3.address' %}</p>
           <div class="text-link">
-            <a href="#">{% t 'accommodation.see_map' %}</a>
+            <a href="https://www.google.es/maps/place/R%C3%BAa+de+Luis+Taboada,+28,+36201+Vigo,+Pontevedra/@42.2399834,-8.7236434,17z/data=!3m1!4b1!4m2!3m1!1s0xd2f6241ecd4ee9d:0xa42346d17acb8852" target="_blank">{% t 'accommodation.see_map' %}</a>
             <a href="http://www.hotelnautico.net/" target="_blank">Web</a>
           </div>      
         </div>

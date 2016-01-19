@@ -10,6 +10,10 @@ menu:
   location: 'Localización'
   pages: 'Páxinas'
   how_to_arrive: 'Como chegar'
+footer:
+  we: 'Nós'
+  previous_edition: 'Edición anterior'
+  return_top: 'Volver arriba' 
 jumbotron:
   title: Hackathon Sanjurjo Badía <br/> tecnoloxía hardware no mar
   event_date: '27-28 Febreiro -  Vigo, Pontevedra'
@@ -27,6 +31,7 @@ presentation:
   content1: 'Profesionais e estudantes (principalmente do mundo do desenvolvemento software e deseño industrial) se reunirán en grupos para crear prototipos relacionados co sector marítimo. Os gañadores recibirán fantásticos premios.'
   content2: 'Ademáis durante a competición celebráranse de forma paralela varios <strong>workshops</strong>, que empezarán dende un nivel básico e irán aumentando de nivel a medida que avance o fin de semana, o cal supón unha estupenda oportunidade para aqueles que estén interesados en ampliar os seus coñecementos.'
   content3: 'O evento é completamente gratuíto e inclúe almorzo, comidas e ceas, sen embargo o aforo está limitado a 100 persoas, polo que non esquezas inscribirte para conseguir a tua entrada.'
+  rules: 'LEER BASES'
 description:
   title: 'Levamos séculos vivindo do mar, pero nunca tentamos facer tecnoloxía para o mar'
   content: 'Esta hackathon nace como un intento de revolucionar aos desenvolvedores pra movelos a facer instrumentos para os barcos que en Galicia se constrúen, pra innovar como se pesca, ou para soster os nosos bancos de peixes. Son moitas as innovacións que leva un barco, son moitas as oportunidades de que Galicia volva a ser un referente.'
@@ -121,8 +126,10 @@ travel_info:
             36202 Vigo, Pontevedra<br><br>
     see_map: 'Ver Mapa'
   how_to_arrive:
-    title: 'Como chegar'
-    content: "En avión, tren, autobús ou coche, sea cual sea a tua forma de viaxe consulta a <a href='http://hacksb.vigolabs.gal/how_to_arrive' target='_blank'>nosa páxina</a> con toda a información necesaria para organizar a tua viaxe."
+    title: 'Como chegar'  
+    content1: "En avión, tren, autobús ou coche, sea cal sea a tua forma de viaxe consulta "
+    content2: "con toda a información necesaria para organizar a tua viaxe."
+    link: "nosa páxina"
 accommodation:
   title: 'Aloxamentos cercanos'
   see_map: 'Ver Mapa'

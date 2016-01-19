@@ -40,10 +40,12 @@
                 <a class="inner-link" href="#home" target="default">{{ page.language }}</a>
                 <ul class="nav-dropdown">
                   <li>
-                    <a href="{{ 'es' | prepend: site.url }}" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
+                    {% capture link_es %}{{ site.baseurl }}/es{{ page.url }}{% endcapture %}
+                    <a href="{{ link_es }}" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
                   </li>
                   <li>
-                    <a href="{{ 'gl' | prepend: site.url }}" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
+                  {% capture link_gl %}{{ site.baseurl }}/gl{{ page.url }}{% endcapture %}
+                    <a href="{{ link_gl }}" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
                   </li>
                 </ul>
               </li>

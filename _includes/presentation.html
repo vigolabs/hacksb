@@ -6,7 +6,14 @@
         <p class="lead">{% t 'presentation.lead' %}</p>
         <p>{% t 'presentation.content1' %}</p>
         <p>{% t 'presentation.content2' %}</p>
-        <p>{% t 'presentation.content3' %}</p>                            
+        <p>{% t 'presentation.content3' %}</p>
+        <div style="text-align: center;">
+          <a class="btn" 
+             href="{{ 'BasesdelHackSB.pdf' | prepend: site.url }}" 
+             target="_blank">
+            {% t 'presentation.rules' %}
+          </a>              
+        </div>                            
       </div>            
     </div>
   </div>
