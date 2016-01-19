@@ -8,6 +8,7 @@ menu:
   schedule: 'Horario'
   travel: 'Viaje'
   location: 'Localización'
+  pages: 'Páginas'
 jumbotron:
   title: Hackathon Sanjurjo Badia <br/> tecnología hardware en el mar
   event_date: '27-28 Febrero -  Vigo, Pontevedra'

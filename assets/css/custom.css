@@ -117,6 +117,10 @@ p a, .text-link a {
 }
 
 /* How to arrive */
+.page_body h1{
+  margin-top: 20px;
+}
+
 .page_body h2{
   margin: 20px 0;
 }
@@ -128,4 +132,13 @@ p a, .text-link a {
 .page_body ul {
   list-style-type: circle;
   margin-left: 30px;
+}
+
+.page_header .overlay-nav {
+  background: #000;
+}
+
+.page_header .bottom-border {
+  bottom: 0px;
+  height: 0px;
 }
