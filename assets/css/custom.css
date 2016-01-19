@@ -142,3 +142,11 @@ p a, .text-link a {
   bottom: 0px;
   height: 0px;
 }
+
+.page_header .nav-dropdown {
+  background: #000;
+}
+
+.page_header .nav-dropdown a {
+  color: #fff;
+}

@@ -23,10 +23,10 @@
               <a class="inner-link" href="#home" target="default">{{ page.language }}</a>
               <ul class="nav-dropdown">
                 <li>
-                  <a href="http://hacksb.vigolabs.gal/es" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
+                  <a href="{{ 'es' | prepend: site.url }}" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
                 </li>
                 <li>
-                  <a href="http://hacksb.vigolabs.gal/gl" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
+                  <a href="{{ 'gl' | prepend: site.url }}" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
                 </li>
               </ul>
             </li>

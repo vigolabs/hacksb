@@ -14,19 +14,36 @@
       
           <div class="col-md-10 text-right">
             <ul class="menu" style="margin-right: 32px;">
-              <li class="has-dropdown"><a class="inner-link" href="#home" target="default">{% t 'menu.pages' %}</a>
+              <li class="has-dropdown">
+                <a class="inner-link" href="#home" target="default">
+                  {% t 'menu.pages' %}
+                </a>
                 <ul class="nav-dropdown">
-                  <li><a class="inner-link" href="http://hacksb.vigolabs.gal" target="default">{% t 'menu.home' %}</a></li>
+                  <li>
+                    <a class="inner-link" href="{{ '' | prepend: site.url }}">
+                      {% t 'menu.home' %}
+                    </a>
+                  </li>
+                  <li>
+                    <a class="inner-link" href="{{ 'how_to_arrive' | prepend: site.url }}">
+                      {% t 'menu.how_to_arrive' %}
+                    </a>
+                  </li>
+                  <li>
+                    <a class="inner-link" href="{{ 'sanjurjo' | prepend: site.url }}">
+                      Sanjurjo Badía
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li class="has-dropdown">
                 <a class="inner-link" href="#home" target="default">{{ page.language }}</a>
                 <ul class="nav-dropdown">
                   <li>
-                    <a href="http://hacksb.vigolabs.gal/es" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
+                    <a href="{{ 'es' | prepend: site.url }}" title="{% t 'lang.es' %}">{% t 'lang.es' %}</a>
                   </li>
                   <li>
-                    <a href="http://hacksb.vigolabs.gal/gl" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
+                    <a href="{{ 'gl' | prepend: site.url }}" title="{% t 'lang.gl' %}">{% t 'lang.gl' %}</a>
                   </li>
                 </ul>
               </li>

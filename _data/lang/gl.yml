@@ -9,6 +9,7 @@ menu:
   travel: 'Viaxe'
   location: 'Localización'
   pages: 'Páxinas'
+  how_to_arrive: 'Como chegar'
 jumbotron:
   title: Hackathon Sanjurjo Badía <br/> tecnoloxía hardware no mar
   event_date: '27-28 Febreiro -  Vigo, Pontevedra'
@@ -193,17 +194,17 @@ how_to_arrive:
 
 sanjurjo:
   title: "Sanjurjo badía"
-  text: |
+  text1: |
     Esta hackathon esta dedicada a un dos mellores inventores que tivo Vigo na súa historia. Antonio Sanjurjo Badía nacido en Sada no 1837 e coñecido co seu alcume herdado  “El habilidades” aprendeu sobre reloxería e fundición no taller do seu pai. En 1854 emigrou a Cuba, onde tivo unha vida prospera debido aos seus coñecementos de mecánica onde montou o seu primeiro taller.
-
+  text2: |
     Cando voltou a Vigo, comprou unha pequeno taller (Ortega y Baamonde) e renomeou a “La Fundidora” onde facían caldeiras e máquinas de vapor. En 1980 fundou a empresa “La industriosa” e nesta empresa desenvolvía todo tipo de instrumentos para o incipiente sistema industrial de Vigo, e nela facían dende presas, máquinas de vapor, olas ou estufas.
-
+  text3: |
     Entre as súas obras, pódense contar un sistema de comunicación na liña da Coruña e Santiago. Unha empresa que comprou e modificaba os motores de vapor por motores de bencina. O seu carácter innovador tamén axudou a que a partir do 1913 iniciou o seu estaleiro (Na actual Guixar) no cal podían facer barcos de ata 80 toneladas. Tamén e salientable que el participou activamente na primeira fábrica de papel da comarca, no sistema de subministración de auga na illa de San Simón, ou comprando un dos primeiros automóbiles da provincia.
-
+  text4: |
     A obra mais recoñecida de Sanjurjo, e un submarino de 11 metros de eslora no cal traballaba para a defensa da Ria de Vigo debido a guerra entre EEUU e España. Este submarino encontrase actualmente nas instalacións do museo de Mar.
-
+  text5: |
     Cabe salientar o aspecto social de Sanjurjo, onde foi dos primeiros empresarios españois en dotar dunha seguridade social ou xubilación dentro das empresas, sendo Sanjurjo un dos empresarios mellor valorados da cidade, onde os seus empregados pensaban no seu patrón como un protector. Dende 1921 ten unha calle adicada en Vigo, e no ano 1922 faleceu.
-
+  text6: |
     Actualmente La industriosa, esta rexentada por un bisneto, e renomeada a Funditesa Sanjurjo Badía e dedicados a elaboración de cilindros para motores de barcos.
 
 consiste:
