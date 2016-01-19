@@ -130,6 +130,12 @@ travel_info:
     content1: "En avión, tren, autobús o coche, sea cual sea tu forma de viaje consulta "
     content2: "con toda la información necesaria para organizar tu viaje."
     link: "nuestra página"
+  transport:
+    title: "Transporte Urbano"
+    content1: "El servicio de transporte público lo gestiona la empresa Vitrasa. Puedes consultar su"
+    content2: "o bajarte la"
+    content3: "para informarte sobre sus lineas y horarios."
+    content4: "De lunes a sábado las lineas con paradas en el Auditorio Mar de Vigo son la <strong>L10</strong> y <strong>L15B</strong>. De lunes a domingo la linea <strong>C1</strong> tiene una parada muy próxima, mas información"
 accommodation:
   title: 'Alojamientos cercanos'
   see_map: 'Ver Mapa'

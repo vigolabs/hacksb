@@ -29,8 +29,8 @@
           <h3>{% t 'travel_info.how_to_arrive.title' %}</h3>
           <p>
             {% t 'travel_info.how_to_arrive.content1' %}
-            {% capture link_es %}{{ site.baseurl }}{{ page.lang }}/how_to_arrive{% endcapture %}
-            <a href="{{ link_es }}" title="{% t 'lang.es' %}" target="_blank">{% t 'travel_info.how_to_arrive.link' %}</a>
+            {% capture how_to_arrive_link %}{{ site.baseurl }}{{ page.lang }}/how_to_arrive{% endcapture %}
+            <a href="{{ how_to_arrive_link }}" target="_blank">{% t 'travel_info.how_to_arrive.link' %}</a>
             {% t 'travel_info.how_to_arrive.content2' %}
           </p>
         </div>
@@ -39,11 +39,18 @@
       <div class="col-md-4 col-sm-6">
         <div class="info-box">
           <img alt="Vitrasa" src="{{ '/assets/img/vitrasa.jpg' | prepend: site.url }}">
-          <h3>Transporte Urbano</h3>
+          <h3>{% t 'travel_info.transport.title' %}</h3>
           <p>
-            Vigo cuenta con un servicio de transporte público conocido por el nombre de la empresa que lo gestiona Vitrasa. Puedes consultar su <a href="http://www.vitrasa.es" target="_blank">web</a> o bajarte la <a href="https://play.google.com/store/apps/details?id=com.jjelosua.vigobus&hl=es" target="_blank">app movil</a> para informarte sobre sus lineas y horarios.
+            {% t 'travel_info.transport.content1' %}
+             <a href="http://www.vitrasa.es" target="_blank">web</a> 
+             {% t 'travel_info.transport.content2' %}
+             <a href="https://play.google.com/store/apps/details?id=com.jjelosua.vigobus&hl=es" target="_blank">app movil</a>
+             {% t 'travel_info.transport.content3' %}
           </p>
-          <p>De lunes a sábado las lineas con paradas en el Auditorio Mar de Vigo son la <strong>L10</strong> y <strong>L15B</strong>. De lunes a domingo la linea <strong>C1</strong> tiene una parada muy próxima, mas información <a href="http://www.vitrasa.es/php/index.php?pag=secciones/seccion&seccion=14" target="_blank">aquí</a>.</p>
+          <p> 
+            {% t 'travel_info.transport.content4' %}
+            <a href="http://www.vitrasa.es/php/index.php?pag=secciones/seccion&seccion=14" target="_blank">aquí</a>.
+          </p>
         </div>
       </div>
     </div>
