@@ -20,17 +20,20 @@
                 </a>
                 <ul class="nav-dropdown">
                   <li>
-                    <a class="inner-link" href="{{ '' | prepend: page.language | prepend: site.url }}">
+                    {% capture home_link %}http://hacksb.vigolabs.gal/{{ page.language }}{% endcapture %}
+                    <a class="inner-link" href="{{ home_link }}">
                       {% t 'menu.home' %}
                     </a>
                   </li>
                   <li>
-                    <a class="inner-link" href="{{ '/how_to_arrive'| prepend: page.language | prepend: site.url }}">
+                    {% capture arrive_link %}http://hacksb.vigolabs.gal/{{ page.language }}/how_to_arrive{% endcapture %}
+                    <a class="inner-link" href="{{ arrive_link }}">
                       {% t 'menu.how_to_arrive' %}
                     </a>
                   </li>
                   <li>
-                    <a class="inner-link" href="{{ '/sanjurjo' | prepend: page.language | prepend: site.url }}">
+                    {% capture badia_link %}http://hacksb.vigolabs.gal/{{ page.language }}/sanjurjo{% endcapture %}
+                    <a class="inner-link" href="{{ badia_link }}">
                       Sanjurjo Badía
                     </a>
                   </li>
