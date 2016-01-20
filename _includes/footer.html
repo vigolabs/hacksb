@@ -8,6 +8,10 @@
   
         <div class="col-sm-9 text-right">
           <ul class="menu">
+            <li>
+              {% capture sanjurjo_link %}{{ site.baseurl }}/{{ page.language }}/sanjurjo{% endcapture %}
+              <a href="{{ sanjurjo_link }}" target="_blank">Sanjurjo Badía</a>
+            </li>
             <li><a href="http://vigolabs.gal" target="_blank">{% t 'footer.we' %}</a></li>
             <li><a href="http://vigolabs.github.io/hackvg" target="_blank">{% t 'footer.previous_edition' %}</a></li>
             <li><a class="inner-link back-to-top" href="#top">{% t 'footer.return_top' %}&nbsp;<i class="icon pe-7s-angle-up-circle"></i></a></li>
