@@ -161,11 +161,11 @@ organizers:
   organizer1:
     name: 'Jesús Sayar'
     job: 'Desarrollador Web'
-    bio: 'Work from Vigo to Madrid company The Cocktail a leading digital capital and consulting a reference Ruby on Rails ecosystem in Spain.'
+    bio: 'Trabaja desde Vigo para la empresa madrileña The Cocktail una de las principales consultoras digitales de la capital y todo un referente del ecosistema Ruby on Rails en España.'
   organizer2:
     name: 'Eloy Coto'
     job: 'Desarrollador VoIP'
-    bio: 'Work from Porrino for the London company Foehn. It was one of the first Spaniards in the Google Campus in London, representing Spain- SeedRocket winners Webphone.'
+    bio: 'Trabaja desde Porriño para la empresa londinense Foehn. Fue uno de los primeiros españoles en el Google Campus de Londres, representando a los ganadores del SeedRocket España - Webphone.'
 how_to_arrive:
   title: 'Como llegar'
   train:
