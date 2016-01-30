@@ -1,0 +1,37 @@
+---
+layout: default
+languages:
+- gl
+- es
+permalink: /:language/ideas
+subset: index
+navigation: false
+---
+
+{% include head.html %}
+<body>
+  <div class="page_header">{% include header_single_page.html %}</div>
+  <div class="main-container page_body">
+    <section class="contained-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1 class="big centered">IDEAS</h1>
+            <ul>
+            {% for idea in site.data.ideas %}
+              <li>
+                  {{ idea.title }}
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+         
+          </div>
+        </div>
+      </div>
+    </section>
+    {% include call_to_action.html %}
+  </div>
+  {% include footer.html %}
+  {% include js.html %}
+</body>
