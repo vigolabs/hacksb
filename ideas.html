@@ -17,6 +17,12 @@ navigation: false
         <div class="row">
 
           <div class="col-md-6 col-sm-6">
+            <h2>123123
+            {% for item in ideas %}
+              LOLA ---{{ item.name }}
+            {% endfor %}
+            </h2>
+            <h1>Offshore000</h1>
             <a class="comments-load" onclick="loadDisqus($(this), 'Offshore', 'Offshore');">
               Show comments
             </a>
@@ -25,16 +31,8 @@ navigation: false
             </noscript>
           </div>
 
-          <div class="col-md-6 col-sm-6">
-            <a class="comments-load" onclick="loadDisqus($(this), 'Pesca', 'Pesca');">
-              Show comments
-            </a>
-            <noscript>
-              Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-            </noscript>
-          </div>
-
         </div><!--row-->
+
       </div>
     </section>
   </div>

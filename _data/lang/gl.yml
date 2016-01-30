@@ -13,7 +13,7 @@ menu:
 footer:
   we: 'Nós'
   previous_edition: 'Edición anterior'
-  return_top: 'Volver arriba' 
+  return_top: 'Volver arriba'
 jumbotron:
   title: Hackathon Sanjurjo Badía <br/> tecnoloxía hardware no mar
   event_date: '27-28 Febreiro -  Vigo, Pontevedra'
@@ -126,7 +126,7 @@ travel_info:
             36202 Vigo, Pontevedra<br><br>
     see_map: 'Ver Mapa'
   how_to_arrive:
-    title: 'Como chegar'  
+    title: 'Como chegar'
     content1: "En avión, tren, autobús ou coche, sea cal sea a tua forma de viaxe consulta "
     content2: "con toda a información necesaria para organizar a tua viaxe."
     link: "nosa páxina"
@@ -135,7 +135,7 @@ travel_info:
     content1: "O servicio de transporte público o xestiona a empresa Vitrasa. Podes consultar a sua"
     content2: "o baixarte a"
     content3: "para informarte sobre as suas liñas e horarios."
-    content4: "De lunes a sábado as liñas con paradas no Auditorio Mar de Vigo son a <strong>L10</strong> e <strong>L15B</strong>. De luns a domingo a linea <strong>C1</strong> ten unha parada moi próxima, mais información"    
+    content4: "De lunes a sábado as liñas con paradas no Auditorio Mar de Vigo son a <strong>L10</strong> e <strong>L15B</strong>. De luns a domingo a linea <strong>C1</strong> ten unha parada moi próxima, mais información"
 accommodation:
   title: 'Aloxamentos cercanos'
   see_map: 'Ver Mapa'
@@ -235,3 +235,11 @@ consiste:
 
    Ademais de contar cos mellores mentores, durante a hackathon contaremos cunha serie de workshops onde a xente poderá asistir de forma paralela para ampliar coñecementos e abrirse a novas ideas.
 
+ideas:
+  - name: Pesca
+    title: Pesca
+    desc: Pesca
+
+  - name: Offshore
+    title: Pesca
+    desc: Pesca
