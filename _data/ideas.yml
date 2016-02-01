@@ -1,8 +1,21 @@
-- title: Idea A
-  description: mojombo
+- title: PESCA
+  image: pesca.jpg
+  description: Galicia leva anos vivindo da pesca, no século XIX empeza una modernización que vai ligada a unha pequena revolución industrial, maquinas de vapor, grúas e maquinaria avanzada de traballo. Existen tres tipos de pesca,cerco, arrastre, fondura. Estas artes son totalmente eficaces, pero estamos seguros que poden ter mellores relacionadas ca tecnoloxía.
 
-- title: Idea B
-  description: parkr
+- title: OFFSHORE
+  image: offshore.jpg
+  description: Nos últimos anos vemos como o sector enerxético esta moi relacionado ao mar, vemos como en Scotland fanse granxas de areoxenadores no mar, por outra lado tamén vemos como moitas refinerias de petroleo cada días son mais habituais.
 
-- title: Idea C
-  description: liufengyun
+- title: ESTALEIROS
+  image: estaleiros.jpg
+  description: Unha dos maiores sectores económicos de Vigo é a construción de barcos. Esta construción conta con sistemas moi sofisticados en canto ao corte ou soldadura. Na construción de barcos ten moitas cousas críticas, dende a medición de gases nocivos, ou sistemas de análise para a correcto funcionamento do barco.
+
+
+- title: Marisqueo
+  image: marisqueo.jpg
+  description: Unhas das artes mais antigas de Galicia é o marisqueo, este arte segue sendo moi manual e antigo. E moi importante  para todo Galicia. Dentro do marisqueo vemos como existe hoxe en día os percebeiros que arriscan a súa vida cada día.
+
+- title: Outros
+  image: outros.jpg
+  description: Cantas brazadas ten que dar un nadador. En que momento da ola é a mellor brazada? Pódese medir a forza feita por una traiñeiras en cada palada?
+

@@ -17,21 +17,82 @@ navigation: false
         <div class="row">
           <div class="col-md-12 col-sm-12">
             <h1 class="big centered">IDEAS</h1>
-            <ul>
-            {% for idea in site.data.ideas %}
-              <li>
-                  {{ idea.title }}
-                </a>
-              </li>
-            {% endfor %}
-            </ul>
-         
+            <div class="row">
+
+              {% for idea in site.data.ideas %}
+
+
+                <div class="col-md-6 col-sm-6">
+                  <h2> {{ idea.title }} </h2>
+                  <img class="img-responsive center-block" alt="{{idea.title}}" src="{{ '/assets/img/ideas/' | append: idea.image |prepend: site.url }}">
+                  <p>{{ idea.description }}</p>
+                  <a class="comments-load" onclick="loadDisqus($(this), '{{idea.title:}}', '{{idea.title}}');">
+                    Mostrar ideas
+                  </a>
+                  <noscript>
+                    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+                  </noscript>
+                </div>
+              {% endfor %}
+
+            </div>
           </div>
         </div>
       </div>
     </section>
-    {% include call_to_action.html %}
   </div>
   {% include footer.html %}
   {% include js.html %}
+
+  <script type="text/javascript">
+    // Global variables needed by Disqus. The identifier and url should be different for each comment thread.
+    var disqus_shortname = 'hacksb';
+    var disqus_identifier;
+    var disqus_url;
+
+    // Loads the Disqus JS file that will create the comment form and threads.
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js'; // Found in disqus.js script
+    $('head').append(dsq);
+
+    // Called in each location you want to show the thread.
+
+    // Disqus searches for 'disqus-thread' elements and uses the first one it finds so to
+    // overcome this, the function will clear any previous comment threads (by finding 'comments-load' elements)
+    //
+    function loadDisqus(element, postTitle, postUrlTag) {
+      var identifier = postTitle;
+
+      // Including the hashbang ('/#!') is important.
+      var url = window.location.origin + '/#!' + postUrlTag;
+
+      var disqus_identifier = identifier;
+      var disqus_url = url;
+
+      if (window.DISQUS) {
+        // Horrible, but jQuery wasn't removing the div elements fully
+        $( ".comments-load" ).each(function() {
+          var len = this.childNodes.length;
+          for(var i = 0; i < len; i++)
+          {
+            if (this.childNodes[i].tagName == "DIV") {
+              this.removeChild(this.childNodes[i]);
+            }
+          }
+        });
+
+        $(element).append('<div class="disqus-thread" id="disqus_thread"></div>');
+
+        /** if Disqus exists, call it's reset method with new parameters **/
+        DISQUS.reset({
+          reload: true,
+          config: function () {
+            //important to convert it to string
+            this.page.identifier = identifier.toString();
+            this.page.url = url;
+          }
+        });
+      }
+    };
+  </script>
 </body>
