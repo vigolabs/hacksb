@@ -20,9 +20,12 @@ navigation: false
             <div class="row">
 
               {% for idea in site.data.ideas %}
+                {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                {% if thecycle == 'odd' %}
+                  <div class="row">
+                {% endif %}
 
-
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6 col-lg-6">
                   <h2> {{ idea.title }} </h2>
                   <img class="img-responsive center-block" alt="{{idea.title}}" src="{{ '/assets/img/ideas/' | append: idea.image |prepend: site.url }}">
                   <p>{{ idea.description }}</p>
@@ -33,6 +36,10 @@ navigation: false
                     Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
                   </noscript>
                 </div>
+
+                {% if thecycle == 'even' %}
+                  </div> <!--row-->
+                {% endif %}
               {% endfor %}
 
             </div>

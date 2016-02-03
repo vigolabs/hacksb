@@ -10,12 +10,15 @@
   image: estaleiros.jpg
   description: Unha dos maiores sectores económicos de Vigo é a construción de barcos. Esta construción conta con sistemas moi sofisticados en canto ao corte ou soldadura. Na construción de barcos ten moitas cousas críticas, dende a medición de gases nocivos, ou sistemas de análise para a correcto funcionamento do barco.
 
+- title: TRANSPORTE E PORTUARIO
+  image: porto.jpg
+  description: O transporte marítimo crece ano tras ano. O movemento de contedores incrementase en números xigantescos e os portos/barcos necesitan solucións. Desde motorización do contedor, dispositivos de seguridade, control de posicionamento de grúas, etc..
 
-- title: Marisqueo
+- title: MARISQUEO
   image: marisqueo.jpg
   description: Unhas das artes mais antigas de Galicia é o marisqueo, este arte segue sendo moi manual e antigo. E moi importante  para todo Galicia. Dentro do marisqueo vemos como existe hoxe en día os percebeiros que arriscan a súa vida cada día.
 
-- title: Outros
+- title: OUTROS
   image: outros.jpg
   description: Cantas brazadas ten que dar un nadador. En que momento da ola é a mellor brazada? Pódese medir a forza feita por una traiñeiras en cada palada?
 
