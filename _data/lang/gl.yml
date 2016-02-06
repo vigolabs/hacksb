@@ -235,3 +235,26 @@ consiste:
 
    Ademais de contar cos mellores mentores, durante a hackathon contaremos cunha serie de workshops onde a xente poderá asistir de forma paralela para ampliar coñecementos e abrirse a novas ideas.
 
+workshops:
+  summary: "Durante toda a fin de semana celebraranse varios workshops, onde diversos profesionais do sector, repasarán as principais tecnoloxías involucradas na electrónica que poidan axudarte o desenvolvemento do teu proxecto."
+  item1:
+    title: "Udoo Neo"
+    summary: "Workshop de introdución onde se explicarán os conceptos básicos de uso das Udoo Boards. Dende a instalación do sistema operativo ás conexións de diferentes shields. Será impartido en inglés por Michelangello Guarise de Udoo."
+  item2:
+    title: "Conetividade GPS"
+    summary: "Bruno Lema de Marine Instruments impartirá un workshop de introdución sobre medicións GPS. Conexión das shields GPS, obtención de datos e librerías para traballar con todo o relacionado con esta tecnoloxía."
+  item3:
+    title: "Arduino 101"
+    summary: "Luis Miranda, xefe de electrónica de TuryElectro, dará un curso de iniciación a Arduino. Onde se explicara os conceptos básicos de electrónica, comunicacións GPIO e programación básica."
+  item4:
+    title: "Ibeacons"
+    summary: "Pablo Formoso, CTO de Softwhisper impartirá un workshop de iniciación ós iBeacon, sistema de posicionamento en interiores de baixo consumo."    
+  item5:
+    title: "Conexións satélite"
+    summary: "Workshop sobre conexión a internet satélite impartido por Bruno Lema. Como conectar un sistema ás Udoo, principais problemas para implantación en alta mar e librerías precisas para traballar con esta tecnoloxía."
+  item6:
+    title: "Impresión 3D"
+    summary: "Juan Santos de Ipglobal, e fundador de SpainLabs.com impartirá un workshop sobre impresión 3D. Posibles aplicacións e vantaxes desta tecnoloxía. Cubriranse desde os movementos RepRAP, software e firmware, modelado 3D ata os problemas mais comúns."
+  item7:
+    title: "Comunicacións Radio"
+    summary: "Isaac Ballesteros, CTO de CentumRT,  fará un unha introdución das comunicacións radio e tecnoloxías 3G e 4G a moi baixo nivel. Explicando como poder usar estas redes nos nosos proxectos."

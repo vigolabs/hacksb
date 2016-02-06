@@ -233,3 +233,27 @@ consiste:
    Unha das cousas que os organizadores temos claro e que non todo o mundo sabe programar Arduino, ou orientado ao hardware. Durante todo o evento vamos a contar cunha serie de mentores das mellores empresas locais. Marine Instruments, IP Global, Interaction Factory que estarán colaborando con todos os participantes da hackathon.
 
    Ademais de contar cos mellores mentores, durante a hackathon contaremos cunha serie de workshops onde a xente poderá asistir de forma paralela para ampliar coñecementos e abrirse a novas ideas.
+
+workshops:
+  summary: "Durante todo el fin de semana se celebrarán varios workshops, donde diversos profesionales del sector, repasarán las principales tecnologías involucradas en la electrónica que pueden ayudar al desarrollo de tu proyecto."
+  item1:
+    title: "Udoo Neo"
+    summary: "Workshop de introdución donde se explicarán los conceptos básicos de uso de las Udoo Boards. Desde la instalación del sistema operativo a las conexiones de diferentes shields. Será impartido en inglés por Michelangello Guarise de Udoo."
+  item2:
+    title: "Conetividade GPS"
+    summary: "Bruno Lema de Marine Instruments impartirá un workshop de introdución sobre medicións GPS. Conexión de las shields GPS, obtención de datos y librerías para trabajar con todo lo relacionado con esta tecnología."
+  item3:
+    title: "Arduino 101"
+    summary: "Luis Miranda, jefe de electrónica de TuryElectro, dará un curso de iniciación a Arduino. Donde se explicara los conceptos básicos de electrónica, comunicaciones GPIO y programación básica."
+  item4:
+    title: "Ibeacons"
+    summary: "Pablo Formoso, CTO de Softwhisper impartirá un workshop de iniciación a los iBeacon, sistema de posicionamento en interiores de bajo consumo."    
+  item5:
+    title: "Conexións satélite"
+    summary: "Workshop sobre conexión a internet satélite impartido por Bruno Lema. Como conectar un sistema a las Udoo, principales problemas para la implantación en alta mar y librerías necesarias para trabajar con esta tecnología."
+  item6:
+    title: "Impresión 3D"
+    summary: "Juan Santos de Ipglobal y fundador de SpainLabs.com impartirá un workshop sobre impresión 3D. Posibles aplicaciones y ventajas de esta tecnología. Se cubrián desde los movimientos RepRAP, software y firmware, modelado 3D hasta los problemas mas comunes."
+  item7:
+    title: "Comunicaciones Radio"
+    summary: "Isaac Ballesteros, CTO de CentumRT, hará una introdución a las comunicaciones radio y tecnologías 3G y 4G a muy bajo nivel. Explicando como poder usar estas redes en nuestros proyectos."
