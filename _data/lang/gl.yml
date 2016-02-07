@@ -258,3 +258,24 @@ workshops:
   item7:
     title: "Comunicacións Radio"
     summary: "Isaac Ballesteros, CTO de CentumRT,  fará un unha introdución das comunicacións radio e tecnoloxías 3G e 4G a moi baixo nivel. Explicando como poder usar estas redes nos nosos proxectos."
+
+ideas:
+  item1:
+    title: PESCA
+    description: "Galicia leva anos vivindo da pesca, no século XIX empeza una modernización que vai ligada a unha pequena revolución industrial, maquinas de vapor, grúas e maquinaria avanzada de traballo. Existen tres tipos de pesca: cerco, arrastre E fondura. Estas artes son totalmente eficaces, pero estamos seguros que poden ter mellores relacionadas ca tecnoloxía."
+  item2:
+    title: OFFSHORE
+    description: "Nos últimos anos vemos como o sector enerxético esta moi relacionado ao mar, vemos como en Scotland fanse granxas de areoxenadores no mar, por outra lado tamén vemos como moitas refinerias de petroleo cada días son mais habituais."
+  item3:
+    title: ESTALEIROS
+    description: "Unha dos maiores sectores económicos de Vigo é a construción de barcos. Esta construción conta con sistemas moi sofisticados en canto ao corte ou soldadura. Na construción de barcos existen moitos puntos críticas, dende a medición de gases nocivos ata sistemas de análise para a correcto funcionamento do barco."
+  item4:
+    title: TRANSPORTE E PORTUARIO
+    description: "O transporte marítimo crece ano tras ano. O movemento de contedores incrementase en números xigantescos e os portos/barcos necesitan solucións. Mtorización de contenedores, dispositivos de seguridade, control de posicionamento de grúas, etc..."
+  item5:
+    title: MARISQUEO
+    description: "Unhas das artes mais antigas de Galicia é o marisqueo, este arte segue sendo moi manual e antigo. E moi importante para todo Galicia. Dentro do marisqueo vemos como existe hoxe en día os percebeiros que arriscan a súa vida cada día."
+  item6:
+    title: OUTROS
+    description: "Cantas brazadas ten que dar un nadador. En que momento da ola é a mellor brazada? Pódese medir a forza feita por una traiñeiras en cada palada?"
+

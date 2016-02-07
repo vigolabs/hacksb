@@ -257,3 +257,23 @@ workshops:
   item7:
     title: "Comunicaciones Radio"
     summary: "Isaac Ballesteros, CTO de CentumRT, hará una introdución a las comunicaciones radio y tecnologías 3G y 4G a muy bajo nivel. Explicando como poder usar estas redes en nuestros proyectos."
+
+ideas:
+  item1:
+    title: PESCA
+    description: "Galicia lleva años viviendo de la pesca, en el siglo XIX empieza una modernización que va ligada a una pequeña revolución industrial, maquinas de vapor, grúas y maquinaria avanzada de trabajo. Existen tres tipos de pesca: cerco, arrastre y gran altura. Estas artes son totalmente eficaces, pero estamos seguros que pueden tener mejoras relacionadas con la tecnología."
+  item2:
+    title: OFFSHORE
+    description: "En los últimos años vemos como el sector energetico está muy relacionado al mar, vemos como en Scotland se hacen granjas de aereogeneradores en el mar, por otro lado también vemos como muchas refinerias de petroleo cada día son mas habituales."
+  item3:
+    title: ASTILLEROS
+    description: "Uno de los mayores sectores económicos de Vigo es la construción de barcos. Esta construción cuenta con sistemas muy sofisticados en cuanto al corte y soldadura. En la construción de barcos existen muchos puntos críticos, desde la medición de gases nocivos a sistemas de análisis para el correcto funcionamento del barco."
+  item4:
+    title: TRANSPORTE Y PORTUARIO
+    description: "El transporte marítimo crece año tras año. El movimiento de contedores se incrementa en números gigantescos y los puertos/barcos necesitan soluciones. Motorización de contenedores, dispositivos de seguridad, control de posicionamento de grúas, etc..."
+  item5:
+    title: MARISQUEO
+    description: "Una de las artes mas antiguas de Galicia es el marisqueo, este arte sigue siendo muy manual y antigua. Es muy importante para todo Galicia. Dentro del marisqueo vemos como existe hoy en día los perceberos que arriesgan su vida cada día."
+  item6:
+    title: OTROS
+    description: "Cuantas brazadas tiene que dar un nadador. En que momento da ola es mejor la brazada? Se puede medir la fuerza hecha por una trainera en cada palada?"
