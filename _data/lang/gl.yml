@@ -260,6 +260,7 @@ workshops:
     summary: "Isaac Ballesteros, CTO de CentumRT,  fará un unha introdución das comunicacións radio e tecnoloxías 3G e 4G a moi baixo nivel. Explicando como poder usar estas redes nos nosos proxectos."
 
 ideas:
+  summary: "Se todavía non tes un proxecto en mente, nós axudamoste. Aqui poderás informarte sobre ideas que che propoñemos, ler sobre proxectos propostos por outros participantes ou propoñes as tuas propias iniciativas. Xa no tes excusa para preparar o teu proxecto!"
   item1:
     title: PESCA
     description: "Galicia leva anos vivindo da pesca, no século XIX empeza una modernización que vai ligada a unha pequena revolución industrial, maquinas de vapor, grúas e maquinaria avanzada de traballo. Existen tres tipos de pesca: cerco, arrastre E fondura. Estas artes son totalmente eficaces, pero estamos seguros que poden ter mellores relacionadas ca tecnoloxía."
