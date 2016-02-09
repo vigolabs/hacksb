@@ -240,7 +240,7 @@ workshops:
     title: "Udoo Neo"
     summary: "Workshop de introdución donde se explicarán los conceptos básicos de uso de las Udoo Boards. Desde la instalación del sistema operativo a las conexiones de diferentes shields. Será impartido en inglés por Michelangello Guarise de Udoo."
   item2:
-    title: "Conetividade GPS"
+    title: "Conetividad GPS"
     summary: "Bruno Lema de Marine Instruments impartirá un workshop de introdución sobre medicións GPS. Conexión de las shields GPS, obtención de datos y librerías para trabajar con todo lo relacionado con esta tecnología."
   item3:
     title: "Arduino 101"
@@ -249,7 +249,7 @@ workshops:
     title: "Ibeacons"
     summary: "Pablo Formoso, CTO de Softwhisper impartirá un workshop de iniciación a los iBeacon, sistema de posicionamento en interiores de bajo consumo."    
   item5:
-    title: "Conexións satélite"
+    title: "Conexiones satélite"
     summary: "Workshop sobre conexión a internet satélite impartido por Bruno Lema. Como conectar un sistema a las Udoo, principales problemas para la implantación en alta mar y librerías necesarias para trabajar con esta tecnología."
   item6:
     title: "Impresión 3D"
