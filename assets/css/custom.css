@@ -158,3 +158,8 @@ p a, .text-link a {
 .page_header .nav-dropdown a {
   color: #fff;
 }
+
+/* Ideas */
+.idea img {
+  margin-bottom: 20px;
+}
