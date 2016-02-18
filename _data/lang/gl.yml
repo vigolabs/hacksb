@@ -141,15 +141,18 @@ accommodation:
   see_map: 'Ver Mapa'
   hotel1:
     name: 'Eurostars Mar de Vigo'
-    summary: '4 Estrelas - A 100 metros (2 Noches 176€ aprox.)'
+    summary: '4 Estrelas - A 100 metros'
+    offer1: 'Habitación Doble 54€'
+    offer2: 'Habitación Doble + Almorzo Express 63€'
+    offer3: 'Habitación Doble + Almorzo Buffet 68€'
     address: 'Avd. Beiramar Nº57-59'
   hotel2:
     name: 'Hotel Aguila'
-    summary: '1 Estrelas - A 1.2 km (2 Noches 60€ aprox.)'
+    summary: '1 Estrelas - A 1.2 km'
     address: 'Rua Victoria Nº6'
   hotel3:
     name: 'Hotel Nautico'
-    summary: '1 Estrelas - A 1.5 km (2 Noches 60€ aprox.)'
+    summary: '1 Estrelas - A 1.5 km'
     address: 'Rua de Luis Taboada, Nº 28'
 call_to_action:
   title: '¿Que estas agardando?'
