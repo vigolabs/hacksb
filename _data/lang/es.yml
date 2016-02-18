@@ -246,8 +246,8 @@ workshops:
     title: "Arduino 101"
     summary: "Luis Miranda, jefe de electrónica de TuryElectro, dará un curso de iniciación a Arduino. Donde se explicara los conceptos básicos de electrónica, comunicaciones GPIO y programación básica."
   item4:
-    title: "Ibeacons"
-    summary: "Pablo Formoso, CTO de Softwhisper impartirá un workshop de iniciación a los iBeacon, sistema de posicionamento en interiores de bajo consumo."    
+    title: "PostGIS"
+    summary: "Micho García de geomati.co impartirá un workshop de introducción a PostGIS, sobre instalación y configuración de el sistema, creación de bases de datos espaciales, importación y exportación de datos y algunas consultas espaciales básicas."    
   item5:
     title: "Conexiones satélite"
     summary: "Workshop sobre conexión a internet satélite impartido por Bruno Lema. Como conectar un sistema a las Udoo, principales problemas para la implantación en alta mar y librerías necesarias para trabajar con esta tecnología."
